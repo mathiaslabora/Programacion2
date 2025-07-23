@@ -1,0 +1,36 @@
+crearConjuntoPerros 30
+
+# conjunto vacio 
+sumaPares 5 
+
+# no hay pares 
+insertarConjuntoPerros 4
+insertarConjuntoPerros 3
+insertarConjuntoPerros 15
+insertarConjuntoPerros 2
+insertarConjuntoPerros 9
+insertarConjuntoPerros 12
+sumaPares 10
+
+# hay 1 par
+insertarConjuntoPerros 4
+insertarConjuntoPerros 15
+insertarConjuntoPerros 2
+insertarConjuntoPerros 9
+insertarConjuntoPerros 12
+insertarConjuntoPerros 0
+sumaPares 15
+
+# hay más de 1 par
+insertarConjuntoPerros 4
+insertarConjuntoPerros 15
+insertarConjuntoPerros 0
+insertarConjuntoPerros 9
+insertarConjuntoPerros 12
+insertarConjuntoPerros 7
+insertarConjuntoPerros 5
+insertarConjuntoPerros 2
+sumaPares 22
+
+liberarConjuntoPerros
+Fin

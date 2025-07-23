@@ -1,0 +1,99 @@
+# Test para TColaDePrioridadPerros: prioritario, prioridad, insertar
+crearCP 25
+
+# creo Perro 1 (Vitalidad 10)
+crearFecha 15/10/2022
+crearPerro 1 Bruno 5 10 Un Beagle amigable
+insertarEnCP
+prioridadEnCP 1
+
+# Perro 2 (Vitalidad 5) - más prioritario que Perro 1
+crearFecha 10/10/2022
+crearPerro 2 Luna 3 5 Una Labradora juguetona
+insertarEnCP
+prioridadEnCP 2
+
+# el perro prioritario es el 2 (Vitalidad 5)
+prioritarioCP
+
+# creo Perro 3 (Vitalidad 10) - igual que Perro 1
+crearFecha 15/10/2022
+crearPerro 3 Coco 2 10 Un Caniche inteligente
+insertarEnCP
+prioridadEnCP 3
+
+# el perro prioritario sigue siendo 2 (Vitalidad 5)
+prioritarioCP
+
+# Perro 1 está en la cola
+estaEnCP 1
+
+# creo Perro 4 (Vitalidad 3) e inserto en cola - nuevo prioritario
+crearFecha 01/10/2022
+crearPerro 4 Lola 1 3 Una Bulldog cariñosa
+insertarEnCP
+prioridadEnCP 4
+
+# ahora el perro prioritario es el 4 (Vitalidad 3)
+prioritarioCP
+
+# creo Perro 5 (Vitalidad 1) como mas prioritario y agrego a cola
+crearFecha 01/10/2020
+crearPerro 5 Max 6 1 Un Pastor Alemán leal
+insertarEnCP
+prioridadEnCP 5
+
+# creo Perro 6 (Vitalidad 8) y agrego a cola
+crearFecha 07/10/2022
+crearPerro 6 Kira 4 8 Una Husky energética
+insertarEnCP
+prioridadEnCP 6
+
+# creo Perro 7 (Vitalidad 9) y agrego a cola
+crearFecha 10/09/2022
+crearPerro 7 Rocky 3 9 Un Boxer valiente
+insertarEnCP
+prioridadEnCP 7
+
+# creo Perro 8 (Vitalidad 12) y agrego a cola
+crearFecha 12/10/2022
+crearPerro 8 Toby 5 12 Un perro adorable
+insertarEnCP
+prioridadEnCP 8
+
+# creo Perro 9 (Vitalidad 4) y agrego a cola
+crearFecha 02/10/2022
+crearPerro 9 Nala 2 4 Una Golden Retriever dócil
+insertarEnCP
+prioridadEnCP 9
+
+# creo Perro 10 (Vitalidad 7) y agrego a cola
+crearFecha 09/10/2022
+crearPerro 10 Simba 1 7 Un Chihuahua pequeño pero audaz
+insertarEnCP
+prioridadEnCP 10
+
+# creo Perro 11 (Vitalidad 6) y agrego a cola
+crearFecha 03/10/2022
+crearPerro 11 Mia 4 6 Una Poodle elegante
+insertarEnCP
+prioridadEnCP 11
+
+# creo Perro 12 (Vitalidad 5) y agrego a cola - igual vitalidad que Perro 2
+crearFecha 04/10/2022
+crearPerro 12 Zeus 3 5 Un Doberman protector
+insertarEnCP
+prioridadEnCP 12
+
+# ahora el perro prioritario es el 5 (Vitalidad 1)
+prioritarioCP
+
+# verifico que el perro 8 está en la cola
+estaEnCP 8
+
+# verifico que el perro 7 está en la cola
+estaEnCP 7
+
+liberarCP
+
+Fin

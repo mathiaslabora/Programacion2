@@ -1,0 +1,24 @@
+crearColaPerros
+crearFecha 20/12/2024
+crearPerro 10 Amparo 6 6 Un Beagle curioso y amigable, siempre siguiendo rastros y explorando
+encolarColaPerros
+frenteColaPerros
+crearFecha 21/12/2024
+crearPerro 4 Turing 3 9 Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+encolarColaPerros
+imprimirColaPerros
+crearFecha 21/12/2024
+crearPerro 2 Titan 8 7 Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+encolarColaPerros
+cantidadColaPerros
+crearFecha 22/12/2024
+crearPerro 3 Ampere 7 5 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+encolarColaPerros
+cantidadColaPerros
+imprimirColaPerros
+desencolarColaPerros
+imprimirColaPerros
+frenteColaPerros
+cantidadColaPerros
+liberarColaPerros
+Fin

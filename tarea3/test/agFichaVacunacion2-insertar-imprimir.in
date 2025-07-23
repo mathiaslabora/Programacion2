@@ -1,0 +1,21 @@
+crearAGFichaVacunacion
+imprimirAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 18
+insertarVacunaAGFichaVacunacion 18 22
+insertarVacunaAGFichaVacunacion 18 23
+insertarVacunaAGFichaVacunacion 18 24
+insertarVacunaAGFichaVacunacion 22 15
+insertarVacunaAGFichaVacunacion 22 16
+imprimirAGFichaVacunacion
+insertarVacunaAGFichaVacunacion 23 40
+insertarVacunaAGFichaVacunacion 23 41
+insertarVacunaAGFichaVacunacion 23 44
+insertarVacunaAGFichaVacunacion 23 48
+insertarVacunaAGFichaVacunacion 44 100
+insertarVacunaAGFichaVacunacion 41 88
+imprimirAGFichaVacunacion
+insertarVacunaAGFichaVacunacion 100 101
+insertarVacunaAGFichaVacunacion 101 102
+imprimirAGFichaVacunacion
+liberarAGFichaVacunacion
+Fin

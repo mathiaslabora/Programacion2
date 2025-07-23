@@ -1,0 +1,109 @@
+1> Se creó una cola de prioridad de perros con cantidad maxima 10
+2> #  la cola está vacía.
+3> El perro con id 0 NO está en la cola de prioridad.
+4> El perro con id 1 NO está en la cola de prioridad.
+5> La cola de prioridad es vacía.
+6> #  creo Perro 1 y agrego a cola.
+7> Fecha creada en forma exitosa.
+8> 9> Se insertó el perro en la cola de prioridad.
+10> #  ahora la cola no está vacía.
+11> La cola de prioridad NO es vacía.
+12> #  el prioritario es el Perro 1.
+13> Perro 1
+Nombre: Rocky
+Edad: 3
+Descripcion:  Un Beagle amigable
+Fecha de ingreso: 2/10/2022
+Vitalidad: 1
+14> #  la vitalidad de Perro 1 es 1.
+15> La prioridad del perro de id 1 es 1
+16> #  elimino el perro prioritario.
+17> Se eliminó el elemento prioritario de la cola de prioridad.
+18> La cola de prioridad es vacía.
+19> #  creo Perro 1 (nuevo, ID 1 ya que la cola estaba vacía) y agrego a cola.
+20> Fecha creada en forma exitosa.
+21> 22> Se insertó el perro en la cola de prioridad.
+23> #  ahora el prioritario es el Perro 1 (el nuevo).
+24> Perro 1
+Nombre: Luna
+Edad: 3
+Descripcion:  Una Labradora juguetona
+Fecha de ingreso: 10/10/2022
+Vitalidad: 1
+25> #  ahora elimino el Perro 1.
+26> Se eliminó el elemento prioritario de la cola de prioridad.
+27> La cola de prioridad es vacía.
+28> #  agrego 10 perros a la cola. Las vitalidades se asignan para que.
+29> #  Perro 10 (fecha 10/10/2021) sea el prioritario (Vitalidad 1),.
+30> #  luego Perro 1 (fecha 1/10/2022, Vitalidad 2),.
+31> #  luego Perro 9 (fecha 3/10/2022, Vitalidad 3), y así sucesivamente..
+32> #  creo Perro 1 (Vitalidad 2).
+33> Fecha creada en forma exitosa.
+34> 35> Se insertó el perro en la cola de prioridad.
+36> #  creo Perro 2 (Vitalidad 10).
+37> Fecha creada en forma exitosa.
+38> 39> Se insertó el perro en la cola de prioridad.
+40> #  creo Perro 3 (Vitalidad 9).
+41> Fecha creada en forma exitosa.
+42> 43> Se insertó el perro en la cola de prioridad.
+44> #  creo Perro 4 (Vitalidad 8).
+45> Fecha creada en forma exitosa.
+46> 47> Se insertó el perro en la cola de prioridad.
+48> #  creo Perro 5 (Vitalidad 7).
+49> Fecha creada en forma exitosa.
+50> 51> Se insertó el perro en la cola de prioridad.
+52> #  creo Perro 6 (Vitalidad 6).
+53> Fecha creada en forma exitosa.
+54> 55> Se insertó el perro en la cola de prioridad.
+56> #  creo Perro 7 (Vitalidad 5).
+57> Fecha creada en forma exitosa.
+58> 59> Se insertó el perro en la cola de prioridad.
+60> #  creo Perro 8 (Vitalidad 4).
+61> Fecha creada en forma exitosa.
+62> 63> Se insertó el perro en la cola de prioridad.
+64> #  creo Perro 9 (Vitalidad 3).
+65> Fecha creada en forma exitosa.
+66> 67> Se insertó el perro en la cola de prioridad.
+68> #  creo Perro 10 (Vitalidad 1 - el prioritario de este grupo).
+69> #  Su prioridad se basa en la fecha 10/10/2021.
+70> Fecha creada en forma exitosa.
+71> 72> Se insertó el perro en la cola de prioridad.
+73> #  el prioritario es el Perro 10 (Vitalidad 1).
+74> Perro 10
+Nombre: Otto
+Edad: 3
+Descripcion:  Un Doberman protector
+Fecha de ingreso: 10/10/2021
+Vitalidad: 1
+75> #  la vitalidad del Perro 1 es 2.
+76> La prioridad del perro de id 1 es 2
+77> #  la vitalidad del Perro 10 es 1.
+78> La prioridad del perro de id 10 es 1
+79> #  verifico que algunos perros estén en la cola.
+80> El perro con id 1 está en la cola de prioridad.
+81> El perro con id 2 está en la cola de prioridad.
+82> El perro con id 10 está en la cola de prioridad.
+83> #  verifico las vitalidades nuevamente.
+84> La prioridad del perro de id 1 es 2
+85> La prioridad del perro de id 2 es 10
+86> La prioridad del perro de id 10 es 1
+87> #  elimino el prioritario (Perro 10, Vit 1).
+88> Se eliminó el elemento prioritario de la cola de prioridad.
+89> #  ahora el prioritario es el Perro 1 (Vitalidad 2).
+90> Perro 1
+Nombre: Max
+Edad: 3
+Descripcion:  Un Caniche inteligente
+Fecha de ingreso: 1/10/2022
+Vitalidad: 2
+91> #  elimino el prioritario (Perro 1, Vit 2).
+92> Se eliminó el elemento prioritario de la cola de prioridad.
+93> #  ahora el prioritario es el Perro 9 (Vitalidad 3).
+94> Perro 9
+Nombre: Zeus
+Edad: 3
+Descripcion:  Una Poodle elegante
+Fecha de ingreso: 3/10/2022
+Vitalidad: 3
+95> Se liberó la cola de prioridad de perros
+96> Fin.

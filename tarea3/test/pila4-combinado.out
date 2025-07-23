@@ -1,0 +1,19 @@
+1> Se ejecutó 'crearTPila' exitosamente
+2> Se ejecutó 'apilarTPila' exitosamente con entero 22
+3> Elemento obtenido al ejecutar cima: 22.
+4> Se ejecutó 'apilarTPila' exitosamente con entero 21
+5> Pila:
+Pila: 22 21
+6> Se ejecutó 'apilarTPila' exitosamente con entero 20
+7> Existen 3 elementos en la pila.
+8> Se ejecutó 'apilarTPila' exitosamente con entero 19
+9> Existen 4 elementos en la pila.
+10> Pila:
+Pila: 22 21 20 19
+11> Se ejecutó 'desapilarTPila' exitosamente
+12> Pila:
+Pila: 22 21 20
+13> Elemento obtenido al ejecutar cima: 20.
+14> Existen 3 elementos en la pila.
+15> Se ejecutó 'liberarTPila' exitosamente.
+16> Fin.

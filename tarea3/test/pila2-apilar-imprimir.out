@@ -1,0 +1,21 @@
+1> Se ejecutó 'crearTPila' exitosamente
+2> Pila:
+Pila:
+3> Se ejecutó 'apilarTPila' exitosamente con entero 30
+4> Pila:
+Pila: 30
+5> Se ejecutó 'apilarTPila' exitosamente con entero 1
+6> Pila:
+Pila: 30 1
+7> Se ejecutó 'liberarTPila' exitosamente.
+8> Se ejecutó 'crearTPila' exitosamente
+9> Se ejecutó 'apilarTPila' exitosamente con entero 5
+10> Se ejecutó 'apilarTPila' exitosamente con entero 3
+11> Se ejecutó 'apilarTPila' exitosamente con entero 20
+12> Pila:
+Pila: 5 3 20
+13> Se ejecutó 'apilarTPila' exitosamente con entero 17
+14> Pila:
+Pila: 5 3 20 17
+15> Se ejecutó 'liberarTPila' exitosamente.
+16> Fin.

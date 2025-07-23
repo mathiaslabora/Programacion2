@@ -1,0 +1,25 @@
+crearPila
+cantidadPila
+apilarPila 5 
+cantidadPila
+desapilarPila
+apilarPila 10
+cantidadPila
+cimaPila
+desapilarPila
+liberarPila
+crearPila
+apilarPila 15
+cimaPila
+apilarPila 17
+cimaPila
+apilarPila 1
+cimaPila
+cantidadPila
+apilarPila 4
+cantidadPila
+desapilarPila
+cimaPila
+cantidadPila
+liberarPila
+Fin

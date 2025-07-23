@@ -1,0 +1,50 @@
+1> #  creo una cola e invierto la prioridad.
+2> Se creó una cola de prioridad de perros con cantidad maxima 10
+3> Se invirtió la prioridad de la cola de prioridad de perros
+4> #  creo Perro 1 y agrego a cola.
+5> Fecha creada en forma exitosa.
+6> 7> Se insertó el perro en la cola de prioridad.
+8> #  invierto la prioridad nuevamente.
+9> Se invirtió la prioridad de la cola de prioridad de perros
+10> #  verifico que el Perro 1 está en la cola y es el prioritario.
+11> El perro con id 1 está en la cola de prioridad.
+12> Perro 1
+Nombre: Rocky
+Edad: 3
+Descripcion:  "Un Beagle curioso"
+Fecha de ingreso: 2/10/2022
+Vitalidad: 1
+13> #  creo Perro 2 y agrego a cola.
+14> Fecha creada en forma exitosa.
+15> 16> Se insertó el perro en la cola de prioridad.
+17> #  Prioridad Normal: P1 es prioritario..
+18> #  creo Perro 3 y agrego a cola.
+19> Fecha creada en forma exitosa.
+20> 21> Se insertó el perro en la cola de prioridad.
+22> #  Prioridad Normal: P1 es prioritario..
+23> #  creo Perro 4 y agrego a cola.
+24> Fecha creada en forma exitosa.
+25> 26> Se insertó el perro en la cola de prioridad.
+27> #  Prioridad Normal: P1 es prioritario..
+28> #  creo Perro 5 y agrego a cola.
+29> Fecha creada en forma exitosa.
+30> 31> Se insertó el perro en la cola de prioridad.
+32> #  Prioridad Normal: P1 es prioritario..
+33> #  el perro prioritario es el 1 (Vitalidad 1).
+34> Perro 1
+Nombre: Rocky
+Edad: 3
+Descripcion:  "Un Beagle curioso"
+Fecha de ingreso: 2/10/2022
+Vitalidad: 1
+35> #  ahora invierto la prioridad y el prioritario es el 2 (Vitalidad 5).
+36> Se invirtió la prioridad de la cola de prioridad de perros
+37> #  Prioridad Invertida: P2 (vit 5) es prioritario..
+38> Perro 2
+Nombre: Luna
+Edad: 3
+Descripcion:  "Una Labradora tranquila"
+Fecha de ingreso: 10/10/2022
+Vitalidad: 5
+39> Se liberó la cola de prioridad de perros
+40> Fin.

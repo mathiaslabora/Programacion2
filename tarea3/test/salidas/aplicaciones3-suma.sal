@@ -1,0 +1,31 @@
+1> Se creó conjunto perros con cantMax 30 exitosamente.
+2> #  conjunto vacio .
+3> NO existen dos ids en el conjunto que sumen 5.
+4> #  no hay pares .
+5> Se ejecutó 'insertarTConjuntoPerros con perro de id 4 exitosamente.
+6> Se ejecutó 'insertarTConjuntoPerros con perro de id 3 exitosamente.
+7> Se ejecutó 'insertarTConjuntoPerros con perro de id 15 exitosamente.
+8> Se ejecutó 'insertarTConjuntoPerros con perro de id 2 exitosamente.
+9> Se ejecutó 'insertarTConjuntoPerros con perro de id 9 exitosamente.
+10> Se ejecutó 'insertarTConjuntoPerros con perro de id 12 exitosamente.
+11> NO existen dos ids en el conjunto que sumen 10.
+12> #  hay 1 par.
+13> Se ejecutó 'insertarTConjuntoPerros con perro de id 4 exitosamente.
+14> Se ejecutó 'insertarTConjuntoPerros con perro de id 15 exitosamente.
+15> Se ejecutó 'insertarTConjuntoPerros con perro de id 2 exitosamente.
+16> Se ejecutó 'insertarTConjuntoPerros con perro de id 9 exitosamente.
+17> Se ejecutó 'insertarTConjuntoPerros con perro de id 12 exitosamente.
+18> Se ejecutó 'insertarTConjuntoPerros con perro de id 0 exitosamente.
+19> Existen dos ids en el conjunto que suman 15.
+20> #  hay más de 1 par.
+21> Se ejecutó 'insertarTConjuntoPerros con perro de id 4 exitosamente.
+22> Se ejecutó 'insertarTConjuntoPerros con perro de id 15 exitosamente.
+23> Se ejecutó 'insertarTConjuntoPerros con perro de id 0 exitosamente.
+24> Se ejecutó 'insertarTConjuntoPerros con perro de id 9 exitosamente.
+25> Se ejecutó 'insertarTConjuntoPerros con perro de id 12 exitosamente.
+26> Se ejecutó 'insertarTConjuntoPerros con perro de id 7 exitosamente.
+27> Se ejecutó 'insertarTConjuntoPerros con perro de id 5 exitosamente.
+28> Se ejecutó 'insertarTConjuntoPerros con perro de id 2 exitosamente.
+29> Existen dos ids en el conjunto que suman 22.
+30> Se ejecutó 'liberarTConjuntoPerros' exitosamente.
+31> Fin.

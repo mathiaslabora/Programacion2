@@ -1,0 +1,295 @@
+1> Refugio creado.
+2> #  Registrar personas.
+3> 4> Se registró la persona de ci 12345678 en el refugio.
+5> 6> Se registró la persona de ci 14523697 en el refugio.
+7> 8> Se registró la persona de ci 29746315 en el refugio.
+9> 10> Se registró la persona de ci 86541239 en el refugio.
+11> Persona Juan Paz
+CI: 12345678
+Fecha de Nacimiento: 12/5/1995
+Perros adoptados:
+Persona Maria Martinez
+CI: 14523697
+Fecha de Nacimiento: 15/2/1999
+Perros adoptados:
+Persona Carlos Paez
+CI: 29746315
+Fecha de Nacimiento: 7/8/2000
+Perros adoptados:
+Persona Julieta Suarez
+CI: 86541239
+Fecha de Nacimiento: 4/10/1989
+Perros adoptados:
+12> #  Registrar perros .
+13> #  Creo e inserto el perro 1.
+14> Fecha creada en forma exitosa.
+15> 16> Se ingresó el perro de id 1 en el refugio.
+17> #  Creo e inserto el perro 2.
+18> Fecha creada en forma exitosa.
+19> 20> Se ingresó el perro de id 2 en el refugio.
+21> #  Creo e inserto el perro 3.
+22> Fecha creada en forma exitosa.
+23> 24> Se ingresó el perro de id 12 en el refugio.
+25> #  Creo e inserto el perro 4.
+26> Fecha creada en forma exitosa.
+27> 28> Se ingresó el perro de id 11 en el refugio.
+29> #  Creo e inserto el perro 5.
+30> Fecha creada en forma exitosa.
+31> 32> Se ingresó el perro de id 5 en el refugio.
+33> #  Creo e inserto el perro 6.
+34> Fecha creada en forma exitosa.
+35> 36> Se ingresó el perro de id 15 en el refugio.
+37> #  Creo e inserto el perro 7.
+38> Fecha creada en forma exitosa.
+39> 40> Se ingresó el perro de id 7 en el refugio.
+41> LDE Perros:
+Perro 15
+Nombre: Amarillo
+Edad: 1
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 20/1/2015
+Vitalidad: 6
+Perro 5
+Nombre: Tinker
+Edad: 2
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 15/3/2020
+Vitalidad: 8
+Perro 11
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 12
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 7
+Nombre: Turing
+Edad: 10
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 4/5/1999
+Vitalidad: 2
+42> Cola de Perros:
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 12
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 11
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+Perro 5
+Nombre: Tinker
+Edad: 2
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 15/3/2020
+Vitalidad: 8
+Perro 15
+Nombre: Amarillo
+Edad: 1
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 20/1/2015
+Vitalidad: 6
+Perro 7
+Nombre: Turing
+Edad: 10
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 4/5/1999
+Vitalidad: 2
+43> Paseando perro: 1 Volta
+Paseando perro: 2 Titan
+Paseando perro: 12 Ampere
+Paseando perro: 11 Turing
+Paseando perro: 5 Tinker
+Se pasearon 5 perros del refugio.
+44> Cola de Perros:
+Perro 15
+Nombre: Amarillo
+Edad: 1
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 20/1/2015
+Vitalidad: 6
+Perro 7
+Nombre: Turing
+Edad: 10
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 4/5/1999
+Vitalidad: 2
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 12
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 11
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+Perro 5
+Nombre: Tinker
+Edad: 2
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 15/3/2020
+Vitalidad: 8
+45> #  Ingreso adopciones .
+46> #  Registro la adopcion entre persona 1 y perro 2.
+47> Fecha creada en forma exitosa.
+48> Se registró la adopción entre el perro de id 2 y la persona de ci 12345678 en el refugio.
+49> #  Registro la adopcion entre persona 1 y perro 1.
+50> Fecha creada en forma exitosa.
+51> Se registró la adopción entre el perro de id 1 y la persona de ci 12345678 en el refugio.
+52> #  Registro la adopcion entre persona 2 y perro 12.
+53> Fecha creada en forma exitosa.
+54> Se registró la adopción entre el perro de id 12 y la persona de ci 14523697 en el refugio.
+55> #  Registro la adopcion entre persona 2 y perro 11.
+56> Fecha creada en forma exitosa.
+57> Se registró la adopción entre el perro de id 11 y la persona de ci 14523697 en el refugio.
+58> #  Registro la adopcion entre persona 3 y perro 15.
+59> Fecha creada en forma exitosa.
+60> Se registró la adopción entre el perro de id 15 y la persona de ci 29746315 en el refugio.
+61> ---------------------------
+Adopcion en fecha 4/3/2025
+Adoptante:
+Persona Maria Martinez
+CI: 14523697
+Adoptado:
+Perro 12
+Nombre: Ampere
+Fecha de ingreso: 14/7/2018
+---------------------------
+---------------------------
+Adopcion en fecha 5/3/2025
+Adoptante:
+Persona Maria Martinez
+CI: 14523697
+Adoptado:
+Perro 11
+Nombre: Turing
+Fecha de ingreso: 1/2/2008
+---------------------------
+---------------------------
+Adopcion en fecha 5/3/2025
+Adoptante:
+Persona Carlos Paez
+CI: 29746315
+Adoptado:
+Perro 15
+Nombre: Amarillo
+Fecha de ingreso: 20/1/2015
+---------------------------
+---------------------------
+Adopcion en fecha 7/5/2025
+Adoptante:
+Persona Juan Paz
+CI: 12345678
+Adoptado:
+Perro 1
+Nombre: Volta
+Fecha de ingreso: 8/9/2021
+---------------------------
+---------------------------
+Adopcion en fecha 10/5/2025
+Adoptante:
+Persona Juan Paz
+CI: 12345678
+Adoptado:
+Perro 2
+Nombre: Titan
+Fecha de ingreso: 22/10/2022
+---------------------------
+62> #  Creo esquema de vacunacion .
+63> 64> 65> 66> 67> 68> 69> 70> 71> Ficha Vacunacion:
+10
+    15
+        50
+    30
+        8
+        5
+            40
+    20
+72> #  Vacunar perros .
+73> Se vacunó al perro 15 con la vacuna (-1, 10).
+74> Se vacunó al perro 15 con la vacuna (10, 30).
+75> Se vacunó al perro 15 con la vacuna (10, 15).
+76> Se vacunó al perro 15 con la vacuna (10, 20).
+77> Se vacunó al perro 15 con la vacuna (30, 8).
+78> Se vacunó al perro 15 con la vacuna (30, 5).
+79> Se vacunó al perro 15 con la vacuna (5, 40).
+80> Se vacunó al perro 15 con la vacuna (15, 50).
+81> Se vacunó al perro 5 con la vacuna (-1, 10).
+82> Se vacunó al perro 5 con la vacuna (10, 30).
+83> Se vacunó al perro 5 con la vacuna (10, 15).
+84> Se vacunó al perro 5 con la vacuna (10, 20).
+85> Se vacunó al perro 5 con la vacuna (30, 8).
+86> Se vacunó al perro 5 con la vacuna (30, 5).
+87> Se vacunó al perro 5 con la vacuna (5, 40).
+88> Se vacunó al perro 5 con la vacuna (15, 50).
+89> Se vacunó al perro 1 con la vacuna (-1, 10).
+90> Se vacunó al perro 1 con la vacuna (10, 30).
+91> Se vacunó al perro 2 con la vacuna (-1, 10).
+92> Se vacunó al perro 2 con la vacuna (10, 30).
+93> Se vacunó al perro 2 con la vacuna (10, 15).
+94> Se vacunó al perro 12 con la vacuna (-1, 10).
+95> Se vacunó al perro 12 con la vacuna (10, 30).
+96> Se vacunó al perro 12 con la vacuna (10, 15).
+97> Se vacunó al perro 12 con la vacuna (10, 20).
+98> Se vacunó al perro 7 con la vacuna (-1, 10).
+99> Se vacunó al perro 7 con la vacuna (10, 30).
+100> Se vacunó al perro 7 con la vacuna (10, 15).
+101> Se vacunó al perro 7 con la vacuna (10, 20).
+102> Se vacunó al perro 7 con la vacuna (30, 5).
+103> Los perros sin vacunación son: 
+Perro 7
+Nombre: Turing
+Edad: 10
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 4/5/1999
+Vitalidad: 7
+104> Se liberó la memoria asociada al refugio.
+105> Fin.

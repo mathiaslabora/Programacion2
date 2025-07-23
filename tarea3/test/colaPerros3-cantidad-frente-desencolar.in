@@ -1,0 +1,37 @@
+crearColaPerros
+cantidadColaPerros
+crearFecha 03/02/2024
+crearPerro 1 Volta 4 10 Labrador Retriever, energético y juguetón, pelaje marrón claro
+encolarColaPerros    
+cantidadColaPerros
+desencolarColaPerros
+crearFecha 05/01/2024
+crearPerro 9 Voltorb 5 12 Golden Retriever, amigable y leal, pelaje dorado brillante
+encolarColaPerros
+cantidadColaPerros
+frenteColaPerros
+desencolarColaPerros
+liberarColaPerros
+crearColaPerros
+crearFecha 20/12/2024
+crearPerro 7 Luna 4 10 Husky siberiana enérgica con ojos azules que disfruta correr en la nieve
+encolarColaPerros
+frenteColaPerros
+crearFecha 21/12/2024
+crearPerro 4 Turing 3 9 Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+encolarColaPerros
+frenteColaPerros
+crearFecha 21/12/2024
+crearPerro 8 Tritón 9 8 Un Poodle inteligente y juguetón con un pelaje rizado y elegante
+encolarColaPerros
+frenteColaPerros
+cantidadColaPerros
+crearFecha 22/12/2024
+crearPerro 3 Ampere 7 5 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+encolarColaPerros
+cantidadColaPerros
+desencolarColaPerros
+frenteColaPerros
+cantidadColaPerros
+liberarColaPerros
+Fin

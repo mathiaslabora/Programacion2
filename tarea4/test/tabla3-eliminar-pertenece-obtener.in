@@ -1,0 +1,69 @@
+# Test para eliminar, pertenece y obtener en TTablaFichaVacunacion
+
+# creo una tabla de tamanio 4
+crearTabla 4
+
+# creo una ficha para el perro con ID 1 (pos = 1 % 4 = 1) y la inserto en la tabla
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 101 # Raíz: codVacuna 101
+insertarVacunaAGFichaVacunacion 101 102 # codVacuna 102, padre 101
+insertarEnTabla 1
+
+# creo una ficha para el perro con ID 2 (pos = 2 % 4 = 2) y la inserto en la tabla
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 201 # Raíz: codVacuna 201
+insertarVacunaAGFichaVacunacion 201 202 # codVacuna 202, padre 201
+insertarEnTabla 2
+
+# creo una ficha para el perro con ID 5 (pos = 5 % 4 = 1, colisión con perro 1) y la inserto en la tabla
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 501 # Raíz: codVacuna 501
+insertarVacunaAGFichaVacunacion 501 502 # codVacuna 502, padre 501
+insertarEnTabla 5
+
+# imprimo la tabla
+imprimirTabla
+
+# verifico que las 3 fichas pertenezcan a la tabla y las obtengo
+#
+# verifico que la ficha del perro 1 este en la tabla
+perteneceATabla 1
+obtenerDeTabla 1
+
+# verifico que la ficha del perro 5 este en la tabla (colisionó con perro 1)
+perteneceATabla 5
+obtenerDeTabla 5
+
+# verifico que la ficha del perro 2 este en la tabla
+perteneceATabla 2
+obtenerDeTabla 2
+
+# verifico que la ficha del perro 3 (no insertado) no este en la tabla
+perteneceATabla 3
+
+#
+# Ahora probamos el eliminar
+#
+
+# elimino la ficha del perro 2 de la tabla
+eliminarDeTabla 2
+
+# verifico que la ficha del perro 2 no esta en la tabla
+perteneceATabla 2
+
+# verifico que la ficha del perro 5 sigue en la tabla
+perteneceATabla 5
+obtenerDeTabla 5
+
+# elimino la ficha del perro 5 y del perro 1 de la tabla
+eliminarDeTabla 5
+eliminarDeTabla 1
+
+# verifico que ninguna de las dos sigue en la tabla
+perteneceATabla 5
+perteneceATabla 1
+
+# libero la tabla
+liberarTabla
+
+Fin

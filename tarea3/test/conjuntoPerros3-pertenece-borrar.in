@@ -1,0 +1,27 @@
+crearConjuntoPerros 3
+insertarConjuntoPerros 2
+perteneceConjuntoPerros 2
+insertarConjuntoPerros 0
+insertarConjuntoPerros 1
+perteneceConjuntoPerros 0
+perteneceConjuntoPerros 1
+perteneceConjuntoPerros 2
+perteneceConjuntoPerros 3
+perteneceConjuntoPerros 4
+imprimirConjuntoPerros
+borrarDeConjuntoPerros 0
+borrarDeConjuntoPerros 1
+borrarDeConjuntoPerros 2
+imprimirConjuntoPerros
+cardinalConjuntoPerros
+cantMaxConjuntoPerros
+insertarConjuntoPerros 0
+borrarDeConjuntoPerros 2
+insertarConjuntoPerros 1
+esVacioConjuntoPerros
+cardinalConjuntoPerros
+cantMaxConjuntoPerros
+borrarDeConjuntoPerros 1
+imprimirConjuntoPerros
+liberarConjuntoPerros
+Fin

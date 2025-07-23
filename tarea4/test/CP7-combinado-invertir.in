@@ -1,0 +1,51 @@
+# creo una cola e invierto la prioridad
+crearCP 10
+invertirPrioCP # Prioridad inicial: Invertida (mayor vitalidad es más prioritario)
+
+# creo Perro 1 y agrego a cola
+crearFecha 2/10/2022
+crearPerro 1 Rocky 3 1 "Un Beagle curioso"
+insertarEnCP
+
+# invierto la prioridad nuevamente
+invertirPrioCP # Prioridad ahora: Normal (menor vitalidad es más prioritario)
+
+# verifico que el Perro 1 está en la cola y es el prioritario
+estaEnCP 1
+prioritarioCP # Perro 1 (vit 1) es el único, por lo tanto prioritario
+
+# creo Perro 2 y agrego a cola
+crearFecha 10/10/2022
+crearPerro 2 Luna 3 5 "Una Labradora tranquila"
+insertarEnCP
+# Prioridad Normal: P1 es prioritario.
+
+# creo Perro 3 y agrego a cola
+crearFecha 9/10/2022
+crearPerro 3 Max 3 4 "Un Caniche activo"
+insertarEnCP
+# Prioridad Normal: P1 es prioritario.
+
+# creo Perro 4 y agrego a cola
+crearFecha 8/10/2022
+crearPerro 4 Coco 3 3 "Un Bulldog dormilon"
+insertarEnCP
+# Prioridad Normal: P1 es prioritario.
+
+# creo Perro 5 y agrego a cola
+crearFecha 7/10/2022
+crearPerro 5 Toby 3 2 "Un Pastor Aleman leal"
+insertarEnCP
+# Prioridad Normal: P1 es prioritario.
+
+# el perro prioritario es el 1 (Vitalidad 1)
+prioritarioCP
+
+# ahora invierto la prioridad y el prioritario es el 2 (Vitalidad 5)
+invertirPrioCP # Prioridad ahora: Invertida (mayor vitalidad es más prioritario)
+# Prioridad Invertida: P2 (vit 5) es prioritario.
+prioritarioCP
+
+liberarCP
+
+Fin

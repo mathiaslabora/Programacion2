@@ -1,0 +1,26 @@
+1> Refugio creado.
+2> #  Crear esquema de vacunas.
+3> 4> 5> 6> 7> #  Creo e inserto el perro 1.
+8> Fecha creada en forma exitosa.
+9> 10> Se ingresó el perro de id 1 en el refugio.
+11> Se vacunó al perro 1 con la vacuna (-1, 15).
+12> Ficha Vacunacion:
+15
+13> Se vacunó al perro 1 con la vacuna (15, 30).
+14> Ficha Vacunacion:
+15
+    30
+15> #  Creo e inserto el perro 2.
+16> Fecha creada en forma exitosa.
+17> 18> Se ingresó el perro de id 2 en el refugio.
+19> Se vacunó al perro 2 con la vacuna (-1, 15).
+20> Ficha Vacunacion:
+15
+21> #  Creo e inserto el perro 3.
+22> Fecha creada en forma exitosa.
+23> 24> Se ingresó el perro de id 11 en el refugio.
+25> Se vacunó al perro 11 con la vacuna (-1, 15).
+26> Ficha Vacunacion:
+15
+27> Se liberó la memoria asociada al refugio.
+28> Fin.

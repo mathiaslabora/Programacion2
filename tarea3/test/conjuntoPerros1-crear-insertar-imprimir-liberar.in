@@ -1,0 +1,12 @@
+crearConjuntoPerros 4
+imprimirConjuntoPerros
+liberarConjuntoPerros
+crearConjuntoPerros 2
+insertarConjuntoPerros 1
+insertarConjuntoPerros 5
+insertarConjuntoPerros 1
+imprimirConjuntoPerros
+insertarConjuntoPerros 0
+imprimirConjuntoPerros
+liberarConjuntoPerros
+Fin

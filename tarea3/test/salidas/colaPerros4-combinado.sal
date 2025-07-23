@@ -1,0 +1,86 @@
+1> Se ejecutó 'crearTColaPerros' exitosamente
+2> Fecha creada en forma exitosa.
+3> 4> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 10
+5> Perro obtenido al ejecutar frente:
+Perro 10
+Nombre: Amparo
+Edad: 6
+Descripcion:  Un Beagle curioso y amigable, siempre siguiendo rastros y explorando
+Fecha de ingreso: 20/12/2024
+Vitalidad: 6
+6> Fecha creada en forma exitosa.
+7> 8> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 4
+9> Cola de Perros:
+Perro 10
+Nombre: Amparo
+Edad: 6
+Descripcion:  Un Beagle curioso y amigable, siempre siguiendo rastros y explorando
+Fecha de ingreso: 20/12/2024
+Vitalidad: 6
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 21/12/2024
+Vitalidad: 9
+10> Fecha creada en forma exitosa.
+11> 12> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 2
+13> La cantidad de perros en la cola es 3
+14> Fecha creada en forma exitosa.
+15> 16> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 3
+17> La cantidad de perros en la cola es 4
+18> Cola de Perros:
+Perro 10
+Nombre: Amparo
+Edad: 6
+Descripcion:  Un Beagle curioso y amigable, siempre siguiendo rastros y explorando
+Fecha de ingreso: 20/12/2024
+Vitalidad: 6
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 21/12/2024
+Vitalidad: 9
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 21/12/2024
+Vitalidad: 7
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 22/12/2024
+Vitalidad: 5
+19> Se ejecutó 'desencolarTColaPerros' exitosamente
+20> Cola de Perros:
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 21/12/2024
+Vitalidad: 9
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 21/12/2024
+Vitalidad: 7
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 22/12/2024
+Vitalidad: 5
+21> Perro obtenido al ejecutar frente:
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 21/12/2024
+Vitalidad: 9
+22> La cantidad de perros en la cola es 3
+23> Se ejecutó 'liberarTColaPerros' exitosamente
+24> Fin.

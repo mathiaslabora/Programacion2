@@ -1,0 +1,125 @@
+crearCP 10
+
+# la cola está vacía
+estaEnCP 0
+estaEnCP 1
+esVaciaCP
+
+# creo Perro 1 y agrego a cola
+crearFecha 2/10/2022
+crearPerro 1 Rocky 3 1 Un Beagle amigable
+insertarEnCP
+
+# ahora la cola no está vacía
+esVaciaCP
+
+# el prioritario es el Perro 1
+prioritarioCP
+
+# la vitalidad de Perro 1 es 1
+prioridadEnCP 1
+
+# elimino el perro prioritario
+eliminarPrioritarioCP
+esVaciaCP # Verifico que la cola queda vacía
+
+# creo Perro 1 (nuevo, ID 1 ya que la cola estaba vacía) y agrego a cola
+crearFecha 10/10/2022
+crearPerro 1 Luna 3 1 Una Labradora juguetona
+insertarEnCP
+
+# ahora el prioritario es el Perro 1 (el nuevo)
+prioritarioCP
+
+# ahora elimino el Perro 1
+eliminarPrioritarioCP
+esVaciaCP # Verifico que la cola queda vacía
+
+# agrego 10 perros a la cola. Las vitalidades se asignan para que
+# Perro 10 (fecha 10/10/2021) sea el prioritario (Vitalidad 1),
+# luego Perro 1 (fecha 1/10/2022, Vitalidad 2),
+# luego Perro 9 (fecha 3/10/2022, Vitalidad 3), y así sucesivamente.
+
+# creo Perro 1 (Vitalidad 2)
+crearFecha 1/10/2022
+crearPerro 1 Max 3 2 Un Caniche inteligente
+insertarEnCP
+
+# creo Perro 2 (Vitalidad 10)
+crearFecha 10/10/2022
+crearPerro 2 Coco 3 10 Un Bulldog cariñoso
+insertarEnCP
+
+# creo Perro 3 (Vitalidad 9)
+crearFecha 9/10/2022
+crearPerro 3 Toby 3 9 Un Pastor Alemán leal
+insertarEnCP
+
+# creo Perro 4 (Vitalidad 8)
+crearFecha 8/10/2022
+crearPerro 4 Bruno 3 8 Una Husky energética
+insertarEnCP
+
+# creo Perro 5 (Vitalidad 7)
+crearFecha 7/10/2022
+crearPerro 5 Lola 3 7 Un Boxer valiente
+insertarEnCP
+
+# creo Perro 6 (Vitalidad 6)
+crearFecha 6/10/2022
+crearPerro 6 Kira 3 6 Un perro adorable
+insertarEnCP
+
+# creo Perro 7 (Vitalidad 5)
+crearFecha 5/10/2022
+crearPerro 7 Simba 3 5 Una Golden Retriever dócil
+insertarEnCP
+
+# creo Perro 8 (Vitalidad 4)
+crearFecha 4/10/2022
+crearPerro 8 Nala 3 4 Un Chihuahua pequeño
+insertarEnCP
+
+# creo Perro 9 (Vitalidad 3)
+crearFecha 3/10/2022
+crearPerro 9 Zeus 3 3 Una Poodle elegante
+insertarEnCP
+
+# creo Perro 10 (Vitalidad 1 - el prioritario de este grupo)
+# Su prioridad se basa en la fecha 10/10/2021
+crearFecha 10/10/2021
+crearPerro 10 Otto 3 1 Un Doberman protector
+insertarEnCP
+
+# el prioritario es el Perro 10 (Vitalidad 1)
+prioritarioCP
+
+# la vitalidad del Perro 1 es 2
+prioridadEnCP 1
+
+# la vitalidad del Perro 10 es 1
+prioridadEnCP 10
+
+# verifico que algunos perros estén en la cola
+estaEnCP 1
+estaEnCP 2
+estaEnCP 10
+
+# verifico las vitalidades nuevamente
+prioridadEnCP 1
+prioridadEnCP 2
+prioridadEnCP 10
+
+# elimino el prioritario (Perro 10, Vit 1)
+eliminarPrioritarioCP
+# ahora el prioritario es el Perro 1 (Vitalidad 2)
+prioritarioCP
+
+# elimino el prioritario (Perro 1, Vit 2)
+eliminarPrioritarioCP
+# ahora el prioritario es el Perro 9 (Vitalidad 3)
+prioritarioCP
+
+liberarCP
+
+Fin

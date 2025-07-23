@@ -1,0 +1,85 @@
+1> Refugio creado.
+2> #  Creo e inserto la persona 1.
+3> 4> Se registró la persona de ci 12345678 en el refugio.
+5> #  Creo e inserto la persona 2.
+6> 7> Se registró la persona de ci 14523697 en el refugio.
+8> #  Creo e inserto el perro 1.
+9> Fecha creada en forma exitosa.
+10> 11> Se ingresó el perro de id 1 en el refugio.
+12> #  Creo e inserto el perro 2.
+13> Fecha creada en forma exitosa.
+14> 15> Se ingresó el perro de id 2 en el refugio.
+16> #  Creo e inserto el perro 3.
+17> Fecha creada en forma exitosa.
+18> 19> Se ingresó el perro de id 3 en el refugio.
+20> #  Registro la adopcion entre persona 1 y perro 2.
+21> Fecha creada en forma exitosa.
+22> Se registró la adopción entre el perro de id 2 y la persona de ci 12345678 en el refugio.
+23> ---------------------------
+Adopcion en fecha 10/5/2025
+Adoptante:
+Persona Juan Paz
+CI: 12345678
+Adoptado:
+Perro 2
+Nombre: Titan
+Fecha de ingreso: 22/10/2022
+---------------------------
+24> #  Registro la adopcion entre persona 1 y perro 1.
+25> Fecha creada en forma exitosa.
+26> Se registró la adopción entre el perro de id 1 y la persona de ci 12345678 en el refugio.
+27> ---------------------------
+Adopcion en fecha 7/5/2025
+Adoptante:
+Persona Juan Paz
+CI: 12345678
+Adoptado:
+Perro 1
+Nombre: Volta
+Fecha de ingreso: 8/9/2021
+---------------------------
+---------------------------
+Adopcion en fecha 10/5/2025
+Adoptante:
+Persona Juan Paz
+CI: 12345678
+Adoptado:
+Perro 2
+Nombre: Titan
+Fecha de ingreso: 22/10/2022
+---------------------------
+28> #  Registro la adopcion entre persona 2 y perro 3.
+29> Fecha creada en forma exitosa.
+30> Se registró la adopción entre el perro de id 3 y la persona de ci 14523697 en el refugio.
+31> ---------------------------
+Adopcion en fecha 4/3/2025
+Adoptante:
+Persona Maria Martinez
+CI: 14523697
+Adoptado:
+Perro 3
+Nombre: Ampere
+Fecha de ingreso: 14/7/2018
+---------------------------
+---------------------------
+Adopcion en fecha 7/5/2025
+Adoptante:
+Persona Juan Paz
+CI: 12345678
+Adoptado:
+Perro 1
+Nombre: Volta
+Fecha de ingreso: 8/9/2021
+---------------------------
+---------------------------
+Adopcion en fecha 10/5/2025
+Adoptante:
+Persona Juan Paz
+CI: 12345678
+Adoptado:
+Perro 2
+Nombre: Titan
+Fecha de ingreso: 22/10/2022
+---------------------------
+32> Se liberó la memoria asociada al refugio.
+33> Fin.

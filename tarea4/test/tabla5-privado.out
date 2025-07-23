@@ -1,0 +1,233 @@
+1> #  creo una tabla de tamanio 10.
+2> Tabla de fichas de vacunación con cantidad estimada 10 creada.
+3> #  Perro ID 10 (pos = 10 % 10 = 0).
+4> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+5> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 1001.
+6> Se insertó la asociación de ficha de vacunación para el perro de id (10) en la tabla de fichas de vacunación.
+7> El perro de id 10, tiene correspondencia a la tabla de fichas de vacunación.
+8> Ficha de vacunación obtenida para perro de id 10:
+Ficha Vacunacion:
+1001
+9> #  Perro ID 9 (pos = 9 % 10 = 9).
+10> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+11> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 901.
+12> Se insertó la asociación de ficha de vacunación para el perro de id (9) en la tabla de fichas de vacunación.
+13> El perro de id 9, tiene correspondencia a la tabla de fichas de vacunación.
+14> Ficha de vacunación obtenida para perro de id 9:
+Ficha Vacunacion:
+901
+15> #  Perro ID 8 (pos = 8 % 10 = 8).
+16> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+17> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 801.
+18> Se insertó la asociación de ficha de vacunación para el perro de id (8) en la tabla de fichas de vacunación.
+19> El perro de id 8, tiene correspondencia a la tabla de fichas de vacunación.
+20> Ficha de vacunación obtenida para perro de id 8:
+Ficha Vacunacion:
+801
+21> #  Perro ID 7 (pos = 7 % 10 = 7).
+22> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+23> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 701.
+24> Se insertó la asociación de ficha de vacunación para el perro de id (7) en la tabla de fichas de vacunación.
+25> El perro de id 7, tiene correspondencia a la tabla de fichas de vacunación.
+26> Ficha de vacunación obtenida para perro de id 7:
+Ficha Vacunacion:
+701
+27> #  Perro ID 6 (pos = 6 % 10 = 6).
+28> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+29> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 601.
+30> Se insertó la asociación de ficha de vacunación para el perro de id (6) en la tabla de fichas de vacunación.
+31> El perro de id 6, tiene correspondencia a la tabla de fichas de vacunación.
+32> Ficha de vacunación obtenida para perro de id 6:
+Ficha Vacunacion:
+601
+33> #  Perro ID 1 (pos = 1 % 10 = 1).
+34> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+35> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 101.
+36> Se insertó la asociación de ficha de vacunación para el perro de id (1) en la tabla de fichas de vacunación.
+37> El perro de id 1, tiene correspondencia a la tabla de fichas de vacunación.
+38> Ficha de vacunación obtenida para perro de id 1:
+Ficha Vacunacion:
+101
+39> #  Perro ID 2 (pos = 2 % 10 = 2).
+40> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+41> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 201.
+42> Se insertó la asociación de ficha de vacunación para el perro de id (2) en la tabla de fichas de vacunación.
+43> El perro de id 2, tiene correspondencia a la tabla de fichas de vacunación.
+44> Ficha de vacunación obtenida para perro de id 2:
+Ficha Vacunacion:
+201
+45> #  Perro ID 3 (pos = 3 % 10 = 3).
+46> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+47> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 301.
+48> Se insertó la asociación de ficha de vacunación para el perro de id (3) en la tabla de fichas de vacunación.
+49> El perro de id 3, tiene correspondencia a la tabla de fichas de vacunación.
+50> Ficha de vacunación obtenida para perro de id 3:
+Ficha Vacunacion:
+301
+51> #  Perro ID 4 (pos = 4 % 10 = 4).
+52> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+53> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 401.
+54> Se insertó la asociación de ficha de vacunación para el perro de id (4) en la tabla de fichas de vacunación.
+55> El perro de id 4, tiene correspondencia a la tabla de fichas de vacunación.
+56> Ficha de vacunación obtenida para perro de id 4:
+Ficha Vacunacion:
+401
+57> #  Perro ID 5 (pos = 5 % 10 = 5).
+58> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+59> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 501.
+60> Se insertó la asociación de ficha de vacunación para el perro de id (5) en la tabla de fichas de vacunación.
+61> El perro de id 5, tiene correspondencia a la tabla de fichas de vacunación.
+62> Ficha de vacunación obtenida para perro de id 5:
+Ficha Vacunacion:
+501
+63> Perro ID: 10
+Ficha Vacunacion:
+1001
+Perro ID: 1
+Ficha Vacunacion:
+101
+Perro ID: 2
+Ficha Vacunacion:
+201
+Perro ID: 3
+Ficha Vacunacion:
+301
+Perro ID: 4
+Ficha Vacunacion:
+401
+Perro ID: 5
+Ficha Vacunacion:
+501
+Perro ID: 6
+Ficha Vacunacion:
+601
+Perro ID: 7
+Ficha Vacunacion:
+701
+Perro ID: 8
+Ficha Vacunacion:
+801
+Perro ID: 9
+Ficha Vacunacion:
+901
+64> #  elimino las primer y última y verifico que no pertenecen.
+65> El perro de id 1, tiene correspondencia a la tabla de fichas de vacunación.
+66> Se eliminó la asociación del perro de id 1 de la tabla de fichas de vacunación.
+67> El perro de id 1, NO tiene correspondencia a la tabla fichas de vacunación.
+68> El perro de id 8, tiene correspondencia a la tabla de fichas de vacunación.
+69> Se eliminó la asociación del perro de id 8 de la tabla de fichas de vacunación.
+70> El perro de id 8, NO tiene correspondencia a la tabla fichas de vacunación.
+71> Perro ID: 10
+Ficha Vacunacion:
+1001
+Perro ID: 2
+Ficha Vacunacion:
+201
+Perro ID: 3
+Ficha Vacunacion:
+301
+Perro ID: 4
+Ficha Vacunacion:
+401
+Perro ID: 5
+Ficha Vacunacion:
+501
+Perro ID: 6
+Ficha Vacunacion:
+601
+Perro ID: 7
+Ficha Vacunacion:
+701
+Perro ID: 9
+Ficha Vacunacion:
+901
+72> #  agrego tres fichas que colisionan en el mismo lugar en la tabla.
+73> #  Perro ID 100 (pos = 100 % 10 = 0).
+74> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+75> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 10001.
+76> Se insertó la asociación de ficha de vacunación para el perro de id (100) en la tabla de fichas de vacunación.
+77> El perro de id 100, tiene correspondencia a la tabla de fichas de vacunación.
+78> Ficha de vacunación obtenida para perro de id 100:
+Ficha Vacunacion:
+10001
+79> #  Perro ID 700 (pos = 700 % 10 = 0, colisión con perro 100).
+80> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+81> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 70001.
+82> Se insertó la asociación de ficha de vacunación para el perro de id (700) en la tabla de fichas de vacunación.
+83> El perro de id 700, tiene correspondencia a la tabla de fichas de vacunación.
+84> Ficha de vacunación obtenida para perro de id 700:
+Ficha Vacunacion:
+70001
+85> #  Perro ID 800 (pos = 800 % 10 = 0, colisión con perro 100).
+86> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+87> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 70001.
+88> Se insertó la asociación de ficha de vacunación para el perro de id (800) en la tabla de fichas de vacunación.
+89> El perro de id 800, tiene correspondencia a la tabla de fichas de vacunación.
+90> Ficha de vacunación obtenida para perro de id 800:
+Ficha Vacunacion:
+70001
+91> #  elimino el último de la lista para el lugar de la colisión.
+92> Se eliminó la asociación del perro de id 10 de la tabla de fichas de vacunación.
+93> El perro de id 10, NO tiene correspondencia a la tabla fichas de vacunación.
+94> Perro ID: 800
+Ficha Vacunacion:
+70001
+Perro ID: 700
+Ficha Vacunacion:
+70001
+Perro ID: 100
+Ficha Vacunacion:
+10001
+Perro ID: 2
+Ficha Vacunacion:
+201
+Perro ID: 3
+Ficha Vacunacion:
+301
+Perro ID: 4
+Ficha Vacunacion:
+401
+Perro ID: 5
+Ficha Vacunacion:
+501
+Perro ID: 6
+Ficha Vacunacion:
+601
+Perro ID: 7
+Ficha Vacunacion:
+701
+Perro ID: 9
+Ficha Vacunacion:
+901
+95> #  elimino el primero de la lista para el lugar de la colisión.
+96> Se eliminó la asociación del perro de id 800 de la tabla de fichas de vacunación.
+97> El perro de id 800, NO tiene correspondencia a la tabla fichas de vacunación.
+98> Perro ID: 700
+Ficha Vacunacion:
+70001
+Perro ID: 100
+Ficha Vacunacion:
+10001
+Perro ID: 2
+Ficha Vacunacion:
+201
+Perro ID: 3
+Ficha Vacunacion:
+301
+Perro ID: 4
+Ficha Vacunacion:
+401
+Perro ID: 5
+Ficha Vacunacion:
+501
+Perro ID: 6
+Ficha Vacunacion:
+601
+Perro ID: 7
+Ficha Vacunacion:
+701
+Perro ID: 9
+Ficha Vacunacion:
+901
+99> Se liberó la tabla de fichas de vacunación.
+100> Fin.

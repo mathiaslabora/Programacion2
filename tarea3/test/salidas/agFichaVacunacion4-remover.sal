@@ -1,0 +1,54 @@
+1> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+2> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 44.
+3> Vacuna de código 44 removida.
+4> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 100.
+5> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 100 y codVacuna 101.
+6> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 100 y codVacuna 102.
+7> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 100 y codVacuna 103.
+8> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 100 y codVacuna 104.
+9> Ficha Vacunacion:
+100
+    104
+    103
+    102
+    101
+10> Vacuna de código 104 removida.
+11> Ficha Vacunacion:
+100
+    103
+    102
+    101
+12> Vacuna de código 101 removida.
+13> Ficha Vacunacion:
+100
+    103
+    102
+14> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 102 y codVacuna 202.
+15> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 102 y codVacuna 206.
+16> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 103 y codVacuna 250.
+17> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 103 y codVacuna 260.
+18> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 250 y codVacuna 251.
+19> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 250 y codVacuna 252.
+20> Ficha Vacunacion:
+100
+    103
+        260
+        250
+            252
+            251
+    102
+        206
+        202
+21> Vacuna de código 102 removida.
+22> Ficha Vacunacion:
+100
+    103
+        260
+        250
+            252
+            251
+23> Vacuna de código 103 removida.
+24> Ficha Vacunacion:
+100
+25> Se ejecutó 'liberarTAGFichaVacunacion' exitosamente.
+26> Fin.

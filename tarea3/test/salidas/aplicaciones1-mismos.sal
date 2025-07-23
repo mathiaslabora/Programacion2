@@ -1,0 +1,69 @@
+1> Se ejecutó 'crearTPila' exitosamente
+2> Se ejecutó 'crearTColaPerros' exitosamente
+3> #  pila y cola vacías.
+4> Tienen los mismos elementos.
+5> #  pila no vacía, cola vacía .
+6> Se ejecutó 'apilarTPila' exitosamente con entero 5
+7> NO tienen los mismos elementos.
+8> #  pila vacía, cola no vacía.
+9> Fecha creada en forma exitosa.
+10> 11> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 1
+12> NO tienen los mismos elementos.
+13> #  misma cantidad de elementos, distintos ids.
+14> Se ejecutó 'apilarTPila' exitosamente con entero 5
+15> Se ejecutó 'apilarTPila' exitosamente con entero 9
+16> Se ejecutó 'apilarTPila' exitosamente con entero 7
+17> Fecha creada en forma exitosa.
+18> 19> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 5
+20> Fecha creada en forma exitosa.
+21> 22> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 10
+23> Fecha creada en forma exitosa.
+24> 25> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 7
+26> NO tienen los mismos elementos.
+27> #  mismos elementos, añadidos en el mismo orden .
+28> Se ejecutó 'apilarTPila' exitosamente con entero 5
+29> Se ejecutó 'apilarTPila' exitosamente con entero 10
+30> Se ejecutó 'apilarTPila' exitosamente con entero 7
+31> Fecha creada en forma exitosa.
+32> 33> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 5
+34> Fecha creada en forma exitosa.
+35> 36> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 10
+37> Fecha creada en forma exitosa.
+38> 39> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 7
+40> Tienen los mismos elementos.
+41> #  mismos elementos, añadidos en distinto orden.
+42> Se ejecutó 'apilarTPila' exitosamente con entero 7
+43> Se ejecutó 'apilarTPila' exitosamente con entero 10
+44> Se ejecutó 'apilarTPila' exitosamente con entero 5
+45> Fecha creada en forma exitosa.
+46> 47> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 5
+48> Fecha creada en forma exitosa.
+49> 50> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 10
+51> Fecha creada en forma exitosa.
+52> 53> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 7
+54> NO tienen los mismos elementos.
+55> #  distinta cantidad de elementos (mas elementos en pila).
+56> Se ejecutó 'apilarTPila' exitosamente con entero 7
+57> Se ejecutó 'apilarTPila' exitosamente con entero 10
+58> Se ejecutó 'apilarTPila' exitosamente con entero 5
+59> Se ejecutó 'apilarTPila' exitosamente con entero 15
+60> Fecha creada en forma exitosa.
+61> 62> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 5
+63> Fecha creada en forma exitosa.
+64> 65> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 10
+66> Fecha creada en forma exitosa.
+67> 68> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 7
+69> NO tienen los mismos elementos.
+70> #  distinta cantidad de elementos (mas elementos en cola).
+71> Se ejecutó 'apilarTPila' exitosamente con entero 5
+72> Se ejecutó 'apilarTPila' exitosamente con entero 10
+73> Fecha creada en forma exitosa.
+74> 75> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 5
+76> Fecha creada en forma exitosa.
+77> 78> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 10
+79> Fecha creada en forma exitosa.
+80> 81> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 7
+82> NO tienen los mismos elementos.
+83> Se ejecutó 'liberarTPila' exitosamente.
+84> Se ejecutó 'liberarTColaPerros' exitosamente
+85> Fin.

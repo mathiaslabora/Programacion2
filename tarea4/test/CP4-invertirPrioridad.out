@@ -1,0 +1,166 @@
+1> #  implementar invertirPrioCP.
+2> Se creó una cola de prioridad de perros con cantidad maxima 15
+3> #  Caso 1: Prioridad por defecto (menor vitalidad es más prioritario).
+4> #  creo Perro 1 con vitalidad 5.
+5> Fecha creada en forma exitosa.
+6> 7> Se insertó el perro en la cola de prioridad.
+8> #  creo Perro 2 con vitalidad 10.
+9> Fecha creada en forma exitosa.
+10> 11> Se insertó el perro en la cola de prioridad.
+12> #  el prioritario es el Perro 1 (vitalidad 5).
+13> Perro 1
+Nombre: Rocky
+Edad: 3
+Descripcion:  Un Beagle jugueton
+Fecha de ingreso: 5/10/2022
+Vitalidad: 5
+14> #  elimino el perro prioritario 2 veces y la cola queda vacia.
+15> Se eliminó el elemento prioritario de la cola de prioridad.
+16> Se eliminó el elemento prioritario de la cola de prioridad.
+17> La cola de prioridad es vacía.
+18> #  Caso 2: Invierto la prioridad (mayor vitalidad es más prioritario).
+19> Se invirtió la prioridad de la cola de prioridad de perros
+20> #  creo Perro 3 con vitalidad 5.
+21> Fecha creada en forma exitosa.
+22> 23> Se insertó el perro en la cola de prioridad.
+24> #  creo Perro 4 con vitalidad 10.
+25> Fecha creada en forma exitosa.
+26> 27> Se insertó el perro en la cola de prioridad.
+28> #  ahora el prioritario es el Perro 4 (vitalidad 10, mayor es prioritario).
+29> Perro 4
+Nombre: Coco
+Edad: 3
+Descripcion:  Un Bulldog dormilon
+Fecha de ingreso: 6/10/2022
+Vitalidad: 10
+30> #  creo Perro 5 con vitalidad 15.
+31> Fecha creada en forma exitosa.
+32> 33> Se insertó el perro en la cola de prioridad.
+34> #  creo Perro 6 con vitalidad 2.
+35> Fecha creada en forma exitosa.
+36> 37> Se insertó el perro en la cola de prioridad.
+38> #  creo Perro 7 con vitalidad 20.
+39> Fecha creada en forma exitosa.
+40> 41> Se insertó el perro en la cola de prioridad.
+42> #  el prioritario es el Perro 7 (vitalidad 20).
+43> Perro 7
+Nombre: Lola
+Edad: 3
+Descripcion:  Un Golden Retriever energico
+Fecha de ingreso: 19/10/2022
+Vitalidad: 20
+44> #  la vitalidad del Perro 7 es 20.
+45> La prioridad del perro de id 7 es 20
+46> #  la vitalidad del Perro 3 es 5.
+47> La prioridad del perro de id 3 es 5
+48> #  elimino el perro prioritario (Perro 7) y verifico.
+49> Se eliminó el elemento prioritario de la cola de prioridad.
+50> #  Perro 7 ya no debe estar.
+51> El perro con id 7 NO está en la cola de prioridad.
+52> #  ahora el prioritario es el Perro 5 (vitalidad 15).
+53> Perro 5
+Nombre: Toby
+Edad: 3
+Descripcion:  Un Pastor Aleman explorador
+Fecha de ingreso: 9/10/2022
+Vitalidad: 15
+54> #  elimino 3 veces el prioritario y verifico que la cola no es vacía.
+55> Se eliminó el elemento prioritario de la cola de prioridad.
+56> Se eliminó el elemento prioritario de la cola de prioridad.
+57> Se eliminó el elemento prioritario de la cola de prioridad.
+58> #  Queda Perro 6 (vit 2).
+59> La cola de prioridad NO es vacía.
+60> Perro 6
+Nombre: Bruno
+Edad: 3
+Descripcion:  Un Husky viejo
+Fecha de ingreso: 5/10/2020
+Vitalidad: 2
+61> #  elimino uno mas y ahora si es vacia.
+62> Se eliminó el elemento prioritario de la cola de prioridad.
+63> La cola de prioridad es vacía.
+64> #  Caso 3: Invierto nuevamente la prioridad (menor vitalidad es más prioritario).
+65> Se invirtió la prioridad de la cola de prioridad de perros
+66> #  creo Perro 8 con vitalidad 5.
+67> Fecha creada en forma exitosa.
+68> 69> Se insertó el perro en la cola de prioridad.
+70> #  creo Perro 9 con vitalidad 10.
+71> Fecha creada en forma exitosa.
+72> 73> Se insertó el perro en la cola de prioridad.
+74> #  ahora el prioritario es el Perro 8 (vitalidad 5).
+75> Perro 8
+Nombre: Kira
+Edad: 3
+Descripcion:  Un Poodle saltarin
+Fecha de ingreso: 5/10/2022
+Vitalidad: 5
+76> #  creo Perro 10 con vitalidad 15.
+77> Fecha creada en forma exitosa.
+78> 79> Se insertó el perro en la cola de prioridad.
+80> #  creo Perro 11 con vitalidad 2.
+81> Fecha creada en forma exitosa.
+82> 83> Se insertó el perro en la cola de prioridad.
+84> #  creo Perro 12 con vitalidad 20.
+85> Fecha creada en forma exitosa.
+86> 87> Se insertó el perro en la cola de prioridad.
+88> #  ahora el prioritario es el Perro 11 (vitalidad 2).
+89> Perro 11
+Nombre: Zeus
+Edad: 3
+Descripcion:  Un Doberman muy vital
+Fecha de ingreso: 5/10/2020
+Vitalidad: 2
+90> #  Caso 4: Invierto la prioridad en una cola con elementos (mayor vitalidad es más prioritario).
+91> #  Cola actual (orden de menor a mayor vitalidad): Perro 11 (vit 2), Perro 8 (vit 5), Perro 9 (vit 10), Perro 10 (vit 15), Perro 12 (vit 20).
+92> Se invirtió la prioridad de la cola de prioridad de perros
+93> #  Ahora el prioritario es Perro 12 (vitalidad 20).
+94> Perro 12
+Nombre: Otto
+Edad: 3
+Descripcion:  Un Dalmata guardian
+Fecha de ingreso: 19/10/2022
+Vitalidad: 20
+95> #  elimino el perro prioritario (Perro 12, vit 20).
+96> Se eliminó el elemento prioritario de la cola de prioridad.
+97> #  ahora el nuevo prioritario es Perro 10 (vitalidad 15).
+98> Perro 10
+Nombre: Nala
+Edad: 3
+Descripcion:  Un Chihuahua curioso
+Fecha de ingreso: 9/10/2022
+Vitalidad: 15
+99> #  la vitalidad del Perro 10 es 15.
+100> La prioridad del perro de id 10 es 15
+101> #  voy eliminando y verificando el orden de prioridad (mayor vitalidad primero).
+102> #  Orden esperado de eliminación: Perro 10 (vit 15), Perro 9 (vit 10), Perro 8 (vit 5), Perro 11 (vit 2).
+103> Se eliminó el elemento prioritario de la cola de prioridad.
+104> #  prioritario es Perro 9 (vit 10).
+105> Perro 9
+Nombre: Simba
+Edad: 3
+Descripcion:  Un Boxer corredor
+Fecha de ingreso: 6/10/2022
+Vitalidad: 10
+106> Se eliminó el elemento prioritario de la cola de prioridad.
+107> #  prioritario es Perro 8 (vit 5).
+108> Perro 8
+Nombre: Kira
+Edad: 3
+Descripcion:  Un Poodle saltarin
+Fecha de ingreso: 5/10/2022
+Vitalidad: 5
+109> Se eliminó el elemento prioritario de la cola de prioridad.
+110> #  prioritario es Perro 11 (vit 2).
+111> Perro 11
+Nombre: Zeus
+Edad: 3
+Descripcion:  Un Doberman muy vital
+Fecha de ingreso: 5/10/2020
+Vitalidad: 2
+112> #  queda un elemento en la cola (Perro 11).
+113> La cola de prioridad NO es vacía.
+114> Se eliminó el elemento prioritario de la cola de prioridad.
+115> #  ahora la cola esta vacia.
+116> La cola de prioridad es vacía.
+117> Se liberó la cola de prioridad de perros
+118> Fin.

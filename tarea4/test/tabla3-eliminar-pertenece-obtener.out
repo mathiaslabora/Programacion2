@@ -1,0 +1,78 @@
+1> #  Test para eliminar, pertenece y obtener en TTablaFichaVacunacion.
+2> #  creo una tabla de tamanio 4.
+3> Tabla de fichas de vacunación con cantidad estimada 4 creada.
+4> #  creo una ficha para el perro con ID 1 (pos = 1 % 4 = 1) y la inserto en la tabla.
+5> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+6> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 101.
+7> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 101 y codVacuna 102.
+8> Se insertó la asociación de ficha de vacunación para el perro de id (1) en la tabla de fichas de vacunación.
+9> #  creo una ficha para el perro con ID 2 (pos = 2 % 4 = 2) y la inserto en la tabla.
+10> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+11> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 201.
+12> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 201 y codVacuna 202.
+13> Se insertó la asociación de ficha de vacunación para el perro de id (2) en la tabla de fichas de vacunación.
+14> #  creo una ficha para el perro con ID 5 (pos = 5 % 4 = 1, colisión con perro 1) y la inserto en la tabla.
+15> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+16> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 501.
+17> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 501 y codVacuna 502.
+18> Se insertó la asociación de ficha de vacunación para el perro de id (5) en la tabla de fichas de vacunación.
+19> #  imprimo la tabla.
+20> Perro ID: 5
+Ficha Vacunacion:
+501
+    502
+Perro ID: 1
+Ficha Vacunacion:
+101
+    102
+Perro ID: 2
+Ficha Vacunacion:
+201
+    202
+21> #  verifico que las 3 fichas pertenezcan a la tabla y las obtengo.
+22> # 
+.
+23> #  verifico que la ficha del perro 1 este en la tabla.
+24> El perro de id 1, tiene correspondencia a la tabla de fichas de vacunación.
+25> Ficha de vacunación obtenida para perro de id 1:
+Ficha Vacunacion:
+101
+    102
+26> #  verifico que la ficha del perro 5 este en la tabla (colisionó con perro 1).
+27> El perro de id 5, tiene correspondencia a la tabla de fichas de vacunación.
+28> Ficha de vacunación obtenida para perro de id 5:
+Ficha Vacunacion:
+501
+    502
+29> #  verifico que la ficha del perro 2 este en la tabla.
+30> El perro de id 2, tiene correspondencia a la tabla de fichas de vacunación.
+31> Ficha de vacunación obtenida para perro de id 2:
+Ficha Vacunacion:
+201
+    202
+32> #  verifico que la ficha del perro 3 (no insertado) no este en la tabla.
+33> El perro de id 3, NO tiene correspondencia a la tabla fichas de vacunación.
+34> # 
+.
+35> #  Ahora probamos el eliminar.
+36> # 
+.
+37> #  elimino la ficha del perro 2 de la tabla.
+38> Se eliminó la asociación del perro de id 2 de la tabla de fichas de vacunación.
+39> #  verifico que la ficha del perro 2 no esta en la tabla.
+40> El perro de id 2, NO tiene correspondencia a la tabla fichas de vacunación.
+41> #  verifico que la ficha del perro 5 sigue en la tabla.
+42> El perro de id 5, tiene correspondencia a la tabla de fichas de vacunación.
+43> Ficha de vacunación obtenida para perro de id 5:
+Ficha Vacunacion:
+501
+    502
+44> #  elimino la ficha del perro 5 y del perro 1 de la tabla.
+45> Se eliminó la asociación del perro de id 5 de la tabla de fichas de vacunación.
+46> Se eliminó la asociación del perro de id 1 de la tabla de fichas de vacunación.
+47> #  verifico que ninguna de las dos sigue en la tabla.
+48> El perro de id 5, NO tiene correspondencia a la tabla fichas de vacunación.
+49> El perro de id 1, NO tiene correspondencia a la tabla fichas de vacunación.
+50> #  libero la tabla.
+51> Se liberó la tabla de fichas de vacunación.
+52> Fin.

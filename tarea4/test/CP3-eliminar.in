@@ -1,0 +1,130 @@
+# implementar eliminarPrioritarioCP
+
+# creo la cola de tamaño 15
+crearCP 15
+
+# elimino cuando la cola está vacía
+eliminarPrioritarioCP
+
+# creo Perro 1 y agrego a cola
+crearFecha 10/10/2021
+crearPerro 1 Rocky 3 10 Un Beagle amigable
+insertarEnCP
+
+# verifico que el perro 1 está en la cola
+estaEnCP 8
+
+# el perro 1 es el único y el prioritario
+prioritarioCP
+
+# elimino el perro 1 de la cola
+eliminarPrioritarioCP
+
+# ahora no debería estar y la cola es vacía
+estaEnCP 8
+esVaciaCP
+
+# creo Perro 2 y agrego a cola
+crearFecha 7/10/2022
+crearPerro 2 Luna 3 2 Una Labradora juguetona
+insertarEnCP
+
+# creo Perro 3 y agrego a cola
+crearFecha 11/10/2021
+crearPerro 3 Max 3 9 Un Caniche inteligente
+insertarEnCP
+
+# creo Perro 4 y agrego a cola
+crearFecha 12/10/2022
+crearPerro 4 Coco 3 6 Un Bulldog cariñoso
+insertarEnCP
+
+# creo Perro 5 y agrego a cola
+crearFecha 2/10/2022
+crearPerro 5 Toby 3 3 Un Pastor Alemán leal
+insertarEnCP
+
+# creo Perro 6 y agrego a cola
+crearFecha 10/10/2021
+crearPerro 6 Bruno 3 10 Una Husky energética
+insertarEnCP
+
+# creo Perro 7 y agrego a cola
+crearFecha 9/10/2022
+crearPerro 7 Lola 3 4 Un Boxer valiente
+insertarEnCP
+
+# creo Perro 8 y agrego a cola
+crearFecha 5/10/2022
+crearPerro 8 Kira 3 11 Un perro adorable
+insertarEnCP
+
+# creo Perro 9 y agrego a cola
+crearFecha 3/10/2022
+crearPerro 9 Simba 3 10 Una Golden Retriever dócil
+insertarEnCP
+
+# creo Perro 10 y agrego a cola
+crearFecha 4/10/2022
+crearPerro 10 Nala 3 1 Un Chihuahua pequeño pero audaz
+insertarEnCP
+
+# el perro prioritario es el 10 con vitalidad 1
+prioritarioCP
+
+# ahora lo elimino y el prioritario es el 2 con vitalidad 2
+eliminarPrioritarioCP
+prioritarioCP
+
+# vuelvo a eliminar y el prioritario es el 5 con vitalidad 3
+eliminarPrioritarioCP
+prioritarioCP
+
+
+# creo Perro 11 y agrego a cola
+crearFecha 6/6/6
+crearPerro 11 Zeus 3 15 Una Poodle elegante
+insertarEnCP
+
+# creo Perro 12 y agrego a cola
+crearFecha 10/10/2021
+crearPerro 12 Otto 3 2 Un Doberman protector
+insertarEnCP
+
+# creo Perro 13 y agrego a cola
+crearFecha 10/10/2022
+crearPerro 13 Mia 3 1 Un perro amigable
+insertarEnCP
+
+# ahora el 13 es el prioritario con vitalidad 1
+prioritarioCP
+
+# vuelvo a eliminar y el prioritario es el 12 con vitalidad 2
+eliminarPrioritarioCP
+prioritarioCP
+
+# vuelvo a eliminar y el prioritario es el 5 con vitalidad 3
+eliminarPrioritarioCP
+prioritarioCP
+
+eliminarPrioritarioCP
+eliminarPrioritarioCP
+eliminarPrioritarioCP
+eliminarPrioritarioCP
+eliminarPrioritarioCP
+eliminarPrioritarioCP
+eliminarPrioritarioCP
+
+# siguen quedando elementos en la cola
+esVaciaCP
+
+# el prioritario es el perro 11 con vitalidad 15
+prioritarioCP
+
+# elimino y ahora si queda vacía
+eliminarPrioritarioCP
+esVaciaCP
+
+liberarCP
+
+Fin

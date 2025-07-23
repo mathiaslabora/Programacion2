@@ -1,0 +1,85 @@
+crearCP 21
+
+estaEnCP 20
+estaEnCP 2
+esVaciaCP
+
+crearFecha 2/10/2022
+crearPerro 20 Rocky 3 1 Un Beagle amigable
+insertarEnCP
+
+estaEnCP 20
+esVaciaCP
+
+prioritarioCP
+
+prioridadEnCP 20
+
+eliminarPrioritarioCP
+esVaciaCP 
+
+crearFecha 10/10/2022
+crearPerro 1 Luna 3 1 Una Labradora juguetona
+insertarEnCP
+
+prioritarioCP
+
+eliminarPrioritarioCP
+esVaciaCP 
+
+crearFecha 2/10/2022
+crearPerro 2 Max 3 2 Un Caniche inteligente
+insertarEnCP
+
+crearFecha 3/10/2022
+crearPerro 3 Coco 3 3 Un Bulldog cariñoso
+insertarEnCP
+
+crearFecha 4/10/2022
+crearPerro 4 Toby 3 4 Un Pastor Alemán leal
+insertarEnCP
+
+crearFecha 5/10/2022
+crearPerro 5 Bruno 3 5 Una Husky energética
+insertarEnCP
+
+crearFecha 6/10/2022
+crearPerro 6 Lola 3 6 Un Boxer valiente
+insertarEnCP
+
+crearFecha 7/10/2022
+crearPerro 7 Kira 3 7 Un perro adorable
+insertarEnCP
+
+crearFecha 8/10/2022
+crearPerro 8 Simba 3 8 Una Golden Retriever dócil
+insertarEnCP
+
+crearFecha 9/10/2022
+crearPerro 9 Nala 3 9 Un Chihuahua pequeño
+insertarEnCP
+
+crearFecha 1/10/2022
+crearPerro 1 Zeus 3 1 Una Poodle elegante
+insertarEnCP
+
+prioritarioCP
+
+prioridadEnCP 1
+
+estaEnCP 7
+estaEnCP 8
+estaEnCP 9
+
+prioridadEnCP 7
+prioridadEnCP 8
+prioridadEnCP 9
+
+eliminarPrioritarioCP
+eliminarPrioritarioCP
+eliminarPrioritarioCP
+eliminarPrioritarioCP
+
+liberarCP
+
+Fin

@@ -1,0 +1,129 @@
+1> Refugio creado.
+2> #  Creo e inserto el perro 1.
+3> Fecha creada en forma exitosa.
+4> 5> Se ingresó el perro de id 1 en el refugio.
+6> #  Creo e inserto el perro 2.
+7> Fecha creada en forma exitosa.
+8> 9> Se ingresó el perro de id 2 en el refugio.
+10> Cola de Perros:
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+11> LDE Perros:
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+12> LDE Perros:
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+13> #  Creo e inserto el perro 3.
+14> Fecha creada en forma exitosa.
+15> 16> Se ingresó el perro de id 3 en el refugio.
+17> #  Creo e inserto el perro 4.
+18> Fecha creada en forma exitosa.
+19> 20> Se ingresó el perro de id 4 en el refugio.
+21> Cola de Perros:
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+22> LDE Perros:
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+23> LDE Perros:
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+24> Se liberó la memoria asociada al refugio.
+25> Fin.

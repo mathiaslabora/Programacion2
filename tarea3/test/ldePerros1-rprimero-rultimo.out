@@ -1,0 +1,61 @@
+1> La LDE de perros ha sido creado de forma exitosa.
+2> Fecha creada en forma exitosa.
+3> 4> Se ha agregado el perro a la lista de forma exitosa.
+5> Fecha creada en forma exitosa.
+6> 7> Se ha agregado el perro a la lista de forma exitosa.
+8> Fecha creada en forma exitosa.
+9> 10> Se ha agregado el perro a la lista de forma exitosa.
+11> Primer perro (ahora removido):
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+12> Primer perro (ahora removido):
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+13> Primer perro (ahora removido):
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+14> La cantidad de perros en la lista es 0
+15> Fecha creada en forma exitosa.
+16> 17> Se ha agregado el perro a la lista de forma exitosa.
+18> Fecha creada en forma exitosa.
+19> 20> Se ha agregado el perro a la lista de forma exitosa.
+21> Fecha creada en forma exitosa.
+22> 23> Se ha agregado el perro a la lista de forma exitosa.
+24> Útimo perro (ahora removido):
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+25> La cantidad de perros en la lista es 2
+26> Útimo perro (ahora removido):
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+27> La cantidad de perros en la lista es 1
+28> Útimo perro (ahora removido):
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+29> La cantidad de perros en la lista es 0
+30> Lista doblemente encadenada de perros liberada.
+31> Fin.

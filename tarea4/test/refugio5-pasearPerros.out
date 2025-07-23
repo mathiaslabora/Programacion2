@@ -1,0 +1,220 @@
+1> Refugio creado.
+2> #  Creo e inserto el perro 1.
+3> Fecha creada en forma exitosa.
+4> 5> Se ingresó el perro de id 1 en el refugio.
+6> #  Creo e inserto el perro 2.
+7> Fecha creada en forma exitosa.
+8> 9> Se ingresó el perro de id 2 en el refugio.
+10> #  Creo e inserto el perro 3.
+11> Fecha creada en forma exitosa.
+12> 13> Se ingresó el perro de id 3 en el refugio.
+14> #  Creo e inserto el perro 4.
+15> Fecha creada en forma exitosa.
+16> 17> Se ingresó el perro de id 4 en el refugio.
+18> Cola de Perros:
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+19> Paseando perro: 1 Volta
+Paseando perro: 2 Titan
+Se pasearon 2 perros del refugio.
+20> Cola de Perros:
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+21> #  Creo e inserto el perro 5.
+22> Fecha creada en forma exitosa.
+23> 24> Se ingresó el perro de id 5 en el refugio.
+25> #  Creo e inserto el perro 6.
+26> Fecha creada en forma exitosa.
+27> 28> Se ingresó el perro de id 6 en el refugio.
+29> #  Creo e inserto el perro 7.
+30> Fecha creada en forma exitosa.
+31> 32> Se ingresó el perro de id 7 en el refugio.
+33> Cola de Perros:
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 5
+Nombre: Tinker
+Edad: 2
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 15/3/2020
+Vitalidad: 8
+Perro 6
+Nombre: Amarillo
+Edad: 1
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 20/1/2015
+Vitalidad: 6
+Perro 7
+Nombre: Turing
+Edad: 10
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 4/5/1999
+Vitalidad: 2
+34> Paseando perro: 3 Ampere
+Paseando perro: 4 Turing
+Paseando perro: 1 Volta
+Paseando perro: 2 Titan
+Paseando perro: 5 Tinker
+Se pasearon 5 perros del refugio.
+35> Cola de Perros:
+Perro 6
+Nombre: Amarillo
+Edad: 1
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 20/1/2015
+Vitalidad: 6
+Perro 7
+Nombre: Turing
+Edad: 10
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 4/5/1999
+Vitalidad: 2
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 5
+Nombre: Tinker
+Edad: 2
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 15/3/2020
+Vitalidad: 8
+36> Paseando perro: 6 Amarillo
+Paseando perro: 7 Turing
+Paseando perro: 3 Ampere
+Paseando perro: 4 Turing
+Paseando perro: 1 Volta
+Paseando perro: 2 Titan
+Paseando perro: 5 Tinker
+Se pasearon 7 perros del refugio.
+37> Cola de Perros:
+Perro 6
+Nombre: Amarillo
+Edad: 1
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 20/1/2015
+Vitalidad: 6
+Perro 7
+Nombre: Turing
+Edad: 10
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 4/5/1999
+Vitalidad: 2
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 5
+Nombre: Tinker
+Edad: 2
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 15/3/2020
+Vitalidad: 8
+38> Se liberó la memoria asociada al refugio.
+39> Fin.

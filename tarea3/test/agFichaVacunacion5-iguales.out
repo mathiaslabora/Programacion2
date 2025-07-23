@@ -1,0 +1,30 @@
+1> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+2> Las fichas de vacunación son iguales.
+3> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 100.
+4> Las fichas de vacunación NO son iguales.
+5> Las fichas de vacunación son iguales.
+6> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 100 y codVacuna 101.
+7> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 100 y codVacuna 102.
+8> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 100 y codVacuna 103.
+9> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 100 y codVacuna 104.
+10> Las fichas de vacunación NO son iguales.
+11> Las fichas de vacunación NO son iguales.
+12> #  comparo contra el mismo árbol (insertado en el mismo orden).
+13> Las fichas de vacunación son iguales.
+14> #  comparo contra un árbol con mismos 4 hijos pero en diferente orden.
+15> Las fichas de vacunación son iguales.
+16> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 102 y codVacuna 200.
+17> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 102 y codVacuna 201.
+18> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 102 y codVacuna 202.
+19> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 103 y codVacuna 300.
+20> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 103 y codVacuna 301.
+21> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 103 y codVacuna 302.
+22> Las fichas de vacunación NO son iguales.
+23> #  comparo contra el mismo árbol (insertado en el mismo orden).
+24> Las fichas de vacunación son iguales.
+25> #  comparo contra el mismo árbol de arriba pero con orden diferente.
+26> Las fichas de vacunación son iguales.
+27> #  comparo contra un árbol con mismos nodos pero hijos de diferentes padres.
+28> Las fichas de vacunación NO son iguales.
+29> Se ejecutó 'liberarTAGFichaVacunacion' exitosamente.
+30> Fin.

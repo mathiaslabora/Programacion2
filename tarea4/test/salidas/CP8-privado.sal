@@ -1,0 +1,64 @@
+1> Se creó una cola de prioridad de perros con cantidad maxima 21
+2> El perro con id 20 NO está en la cola de prioridad.
+3> El perro con id 2 NO está en la cola de prioridad.
+4> La cola de prioridad es vacía.
+5> Fecha creada en forma exitosa.
+6> 7> Se insertó el perro en la cola de prioridad.
+8> El perro con id 20 está en la cola de prioridad.
+9> La cola de prioridad NO es vacía.
+10> Perro 20
+Nombre: Rocky
+Edad: 3
+Descripcion:  Un Beagle amigable
+Fecha de ingreso: 2/10/2022
+Vitalidad: 1
+11> La prioridad del perro de id 20 es 1
+12> Se eliminó el elemento prioritario de la cola de prioridad.
+13> La cola de prioridad es vacía.
+14> Fecha creada en forma exitosa.
+15> 16> Se insertó el perro en la cola de prioridad.
+17> Perro 1
+Nombre: Luna
+Edad: 3
+Descripcion:  Una Labradora juguetona
+Fecha de ingreso: 10/10/2022
+Vitalidad: 1
+18> Se eliminó el elemento prioritario de la cola de prioridad.
+19> La cola de prioridad es vacía.
+20> Fecha creada en forma exitosa.
+21> 22> Se insertó el perro en la cola de prioridad.
+23> Fecha creada en forma exitosa.
+24> 25> Se insertó el perro en la cola de prioridad.
+26> Fecha creada en forma exitosa.
+27> 28> Se insertó el perro en la cola de prioridad.
+29> Fecha creada en forma exitosa.
+30> 31> Se insertó el perro en la cola de prioridad.
+32> Fecha creada en forma exitosa.
+33> 34> Se insertó el perro en la cola de prioridad.
+35> Fecha creada en forma exitosa.
+36> 37> Se insertó el perro en la cola de prioridad.
+38> Fecha creada en forma exitosa.
+39> 40> Se insertó el perro en la cola de prioridad.
+41> Fecha creada en forma exitosa.
+42> 43> Se insertó el perro en la cola de prioridad.
+44> Fecha creada en forma exitosa.
+45> 46> Se insertó el perro en la cola de prioridad.
+47> Perro 1
+Nombre: Zeus
+Edad: 3
+Descripcion:  Una Poodle elegante
+Fecha de ingreso: 1/10/2022
+Vitalidad: 1
+48> La prioridad del perro de id 1 es 1
+49> El perro con id 7 está en la cola de prioridad.
+50> El perro con id 8 está en la cola de prioridad.
+51> El perro con id 9 está en la cola de prioridad.
+52> La prioridad del perro de id 7 es 7
+53> La prioridad del perro de id 8 es 8
+54> La prioridad del perro de id 9 es 9
+55> Se eliminó el elemento prioritario de la cola de prioridad.
+56> Se eliminó el elemento prioritario de la cola de prioridad.
+57> Se eliminó el elemento prioritario de la cola de prioridad.
+58> Se eliminó el elemento prioritario de la cola de prioridad.
+59> Se liberó la cola de prioridad de perros
+60> Fin.

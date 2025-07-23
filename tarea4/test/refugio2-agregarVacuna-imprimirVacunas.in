@@ -1,0 +1,8 @@
+crearRefugio 100
+agregarVacunaRefugio -1 15
+agregarVacunaRefugio 15 25 
+agregarVacunaRefugio 15 30 
+agregarVacunaRefugio 30 5
+imprimirEsquemaVacunacionRefugio
+liberarRefugio
+Fin

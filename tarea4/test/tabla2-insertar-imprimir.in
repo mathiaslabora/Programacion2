@@ -1,0 +1,69 @@
+# Test para insertar e imprimir TTablaFichaVacunacion
+
+# Parte 1: Inserciones sin colisiones
+# creo una tabla de tamanio 4
+crearTabla 4
+
+# creo una ficha para el perro con ID 1 y la inserto en la tabla
+# idPerro = 1, tamanio = 4 -> pos = 1 % 4 = 1
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 101 # Raíz: codVacuna 101
+insertarVacunaAGFichaVacunacion 101 102 # codVacuna 102, padre 101
+insertarEnTabla 1
+
+# creo una ficha para el perro con ID 2 y la inserto en la tabla
+# idPerro = 2, tamanio = 4 -> pos = 2 % 4 = 2
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 201 # Raíz: codVacuna 201
+insertarVacunaAGFichaVacunacion 201 202 # codVacuna 202, padre 201
+insertarEnTabla 2
+
+# imprimo la tabla
+# Debería imprimir primero la ficha del perro 1 (desde la posición 1 de la tabla hash)
+# Luego la ficha del perro 2 (desde la posición 2 de la tabla hash)
+imprimirTabla
+
+# libero la tabla
+liberarTabla
+
+#
+# Parte 2: Inserciones con colisiones
+#
+
+# creo una tabla de tamanio 4
+crearTabla 4
+
+# creo una ficha para el perro con ID 1 y la inserto en la tabla
+# idPerro = 1, tamanio = 4 -> pos = 1 % 4 = 1
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 10   # Raíz: codVacuna 10 (Ficha A)
+insertarVacunaAGFichaVacunacion 10 11   # codVacuna 11, padre 10
+insertarEnTabla 1
+
+# creo una ficha para el perro con ID 5 y la inserto en la tabla
+# idPerro = 5, tamanio = 4 -> pos = 5 % 4 = 1 (colisión con perro 1)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 50   # Raíz: codVacuna 50 (Ficha B)
+insertarVacunaAGFichaVacunacion 50 51   # codVacuna 51, padre 50
+insertarEnTabla 5
+
+# creo una ficha para el perro con ID 2 y la inserto en la tabla
+# idPerro = 2, tamanio = 4 -> pos = 2 % 4 = 2
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 20   # Raíz: codVacuna 20 (Ficha C)
+insertarVacunaAGFichaVacunacion 20 21   # codVacuna 21, padre 20
+insertarEnTabla 2
+
+# imprimo la tabla
+# Orden esperado:
+# Posición 1 de la tabla hash:
+#   Ficha del perro 5 (Ficha B - insertada más recientemente en esta posición)
+#   Ficha del perro 1 (Ficha A)
+# Posición 2 de la tabla hash:
+#   Ficha del perro 2 (Ficha C)
+imprimirTabla
+
+# libero la tabla
+liberarTabla
+
+Fin

@@ -1,0 +1,47 @@
+# Test para TColaDePrioridadPerros: crear, liberar, estaVacia, esta, insertar
+
+crearCP 11
+
+# chequeo con cola vacía
+esVaciaCP
+estaEnCP 1
+
+# creo Perro 1 (Vitalidad 10)
+crearFecha 10/10/2022
+crearPerro 1 Fido 3 10 Un perro amigable
+
+# inserto el perro en la cola
+insertarEnCP
+
+# ahora la cola no está vacía
+esVaciaCP
+
+# chequeo perros en la cola
+estaEnCP 1
+estaEnCP 2  # No insertado aun
+estaEnCP 3 # No insertado aun
+
+# creo Perro 2 (Vitalidad 20) - menos prioritario que Perro 1
+crearFecha 22/03/2023
+crearPerro 2 Max 4 20 Un perro grande
+
+# inserto en cola
+insertarEnCP
+
+# creo Perro 3 (Vitalidad 2) - el prioritario
+crearFecha 01/01/2024
+crearPerro 3 Rocky 2 2 Un perro pequeño y energético
+
+# inserto en cola
+insertarEnCP
+
+# testeo perros en cola
+estaEnCP 1
+estaEnCP 6  # No insertado
+estaEnCP 2
+estaEnCP 3
+estaEnCP 10  # No insertado
+
+liberarCP
+
+Fin

@@ -1,0 +1,15 @@
+1> Se creó conjunto perros con cantMax 4 exitosamente.
+2> Conjunto de perros:
+
+3> Se ejecutó 'liberarTConjuntoPerros' exitosamente.
+4> Se creó conjunto perros con cantMax 2 exitosamente.
+5> Se ejecutó 'insertarTConjuntoPerros con perro de id 1 exitosamente.
+6> Se ejecutó 'insertarTConjuntoPerros con perro de id 5 exitosamente.
+7> Se ejecutó 'insertarTConjuntoPerros con perro de id 1 exitosamente.
+8> Conjunto de perros:
+1
+9> Se ejecutó 'insertarTConjuntoPerros con perro de id 0 exitosamente.
+10> Conjunto de perros:
+0 1
+11> Se ejecutó 'liberarTConjuntoPerros' exitosamente.
+12> Fin.

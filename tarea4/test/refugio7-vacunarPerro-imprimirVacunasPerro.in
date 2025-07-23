@@ -1,0 +1,41 @@
+crearRefugio 10
+
+# Crear esquema de vacunas
+agregarVacunaRefugio -1 15
+agregarVacunaRefugio 15 25 
+agregarVacunaRefugio 15 30 
+agregarVacunaRefugio 30 5
+
+# Creo e inserto el perro 1
+crearFecha 08/09/2021
+crearPerro 1 Volta 4 10 Labrador Retriever, energético y juguetón, pelaje marrón claro
+ingresarPerroRefugio
+
+vacunarPerroRefugio 1 -1 15
+
+imprimirFichaVacunacionPerroRefugio 1
+
+vacunarPerroRefugio 1 15 30
+
+imprimirFichaVacunacionPerroRefugio 1
+
+# Creo e inserto el perro 2
+crearFecha 22/10/2022
+crearPerro 2 Titan 8 7 Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+ingresarPerroRefugio
+
+vacunarPerroRefugio 2 -1 15
+
+imprimirFichaVacunacionPerroRefugio 2
+
+# Creo e inserto el perro 3
+crearFecha 14/8/2024
+crearPerro 11 Tobby 3 8 Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+ingresarPerroRefugio
+
+vacunarPerroRefugio 11 -1 15
+
+imprimirFichaVacunacionPerroRefugio 11
+
+liberarRefugio
+Fin

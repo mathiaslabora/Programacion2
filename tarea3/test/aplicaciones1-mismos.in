@@ -1,0 +1,94 @@
+crearPila
+crearColaPerros
+
+# pila y cola vacías
+mismosElementos
+
+# pila no vacía, cola vacía 
+apilarPila 5
+mismosElementos
+
+# pila vacía, cola no vacía
+crearFecha 03/02/2024
+crearPerro 1 Volta 4 10 Labrador Retriever, energético y juguetón, pelaje marrón claro
+encolarColaPerros
+mismosElementos
+
+# misma cantidad de elementos, distintos ids
+apilarPila 5 
+apilarPila 9
+apilarPila 7
+crearFecha 03/02/2024
+crearPerro 5 Volta 4 10 Labrador Retriever, energético y juguetón, pelaje marrón claro
+encolarColaPerros
+crearFecha 20/12/2024
+crearPerro 10 Luna 4 10 Husky siberiana enérgica con ojos azules que disfruta correr en la nieve
+encolarColaPerros
+crearFecha 22/12/2024
+crearPerro 7 Ampere 7 5 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+encolarColaPerros
+mismosElementos
+
+# mismos elementos, añadidos en el mismo orden 
+apilarPila 5 
+apilarPila 10
+apilarPila 7
+crearFecha 03/02/2024
+crearPerro 5 Volta 4 10 Labrador Retriever, energético y juguetón, pelaje marrón claro
+encolarColaPerros
+crearFecha 20/12/2024
+crearPerro 10 Luna 4 10 Husky siberiana enérgica con ojos azules que disfruta correr en la nieve
+encolarColaPerros
+crearFecha 22/12/2024
+crearPerro 7 Ampere 7 5 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+encolarColaPerros
+mismosElementos
+
+# mismos elementos, añadidos en distinto orden
+apilarPila 7 
+apilarPila 10
+apilarPila 5
+crearFecha 03/02/2024
+crearPerro 5 Volta 4 10 Labrador Retriever, energético y juguetón, pelaje marrón claro
+encolarColaPerros
+crearFecha 20/12/2024
+crearPerro 10 Luna 4 10 Husky siberiana enérgica con ojos azules que disfruta correr en la nieve
+encolarColaPerros
+crearFecha 22/12/2024
+crearPerro 7 Ampere 7 5 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+encolarColaPerros
+mismosElementos
+
+# distinta cantidad de elementos (mas elementos en pila)
+apilarPila 7 
+apilarPila 10
+apilarPila 5
+apilarPila 15
+crearFecha 03/02/2024
+crearPerro 5 Volta 4 10 Labrador Retriever, energético y juguetón, pelaje marrón claro
+encolarColaPerros
+crearFecha 20/12/2024
+crearPerro 10 Luna 4 10 Husky siberiana enérgica con ojos azules que disfruta correr en la nieve
+encolarColaPerros
+crearFecha 22/12/2024
+crearPerro 7 Ampere 7 5 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+encolarColaPerros
+mismosElementos
+
+# distinta cantidad de elementos (mas elementos en cola)
+apilarPila 5
+apilarPila 10
+crearFecha 03/02/2024
+crearPerro 5 Volta 4 10 Labrador Retriever, energético y juguetón, pelaje marrón claro
+encolarColaPerros
+crearFecha 20/12/2024
+crearPerro 10 Luna 4 10 Husky siberiana enérgica con ojos azules que disfruta correr en la nieve
+encolarColaPerros
+crearFecha 22/12/2024
+crearPerro 7 Ampere 7 5 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+encolarColaPerros
+mismosElementos
+
+liberarPila
+liberarColaPerros
+Fin

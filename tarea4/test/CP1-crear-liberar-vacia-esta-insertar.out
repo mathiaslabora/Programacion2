@@ -1,0 +1,31 @@
+1> #  Test para TColaDePrioridadPerros: crear, liberar, estaVacia, esta, insertar.
+2> Se creó una cola de prioridad de perros con cantidad maxima 11
+3> #  chequeo con cola vacía.
+4> La cola de prioridad es vacía.
+5> El perro con id 1 NO está en la cola de prioridad.
+6> #  creo Perro 1 (Vitalidad 10).
+7> Fecha creada en forma exitosa.
+8> 9> #  inserto el perro en la cola.
+10> Se insertó el perro en la cola de prioridad.
+11> #  ahora la cola no está vacía.
+12> La cola de prioridad NO es vacía.
+13> #  chequeo perros en la cola.
+14> El perro con id 1 está en la cola de prioridad.
+15> El perro con id 2 NO está en la cola de prioridad.
+16> El perro con id 3 NO está en la cola de prioridad.
+17> #  creo Perro 2 (Vitalidad 20) - menos prioritario que Perro 1.
+18> Fecha creada en forma exitosa.
+19> 20> #  inserto en cola.
+21> Se insertó el perro en la cola de prioridad.
+22> #  creo Perro 3 (Vitalidad 2) - el prioritario.
+23> Fecha creada en forma exitosa.
+24> 25> #  inserto en cola.
+26> Se insertó el perro en la cola de prioridad.
+27> #  testeo perros en cola.
+28> El perro con id 1 está en la cola de prioridad.
+29> El perro con id 6 NO está en la cola de prioridad.
+30> El perro con id 2 está en la cola de prioridad.
+31> El perro con id 3 está en la cola de prioridad.
+32> El perro con id 10 NO está en la cola de prioridad.
+33> Se liberó la cola de prioridad de perros
+34> Fin.

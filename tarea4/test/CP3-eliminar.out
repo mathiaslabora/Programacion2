@@ -1,0 +1,125 @@
+1> #  implementar eliminarPrioritarioCP.
+2> #  creo la cola de tamaño 15.
+3> Se creó una cola de prioridad de perros con cantidad maxima 15
+4> #  elimino cuando la cola está vacía.
+5> Se eliminó el elemento prioritario de la cola de prioridad.
+6> #  creo Perro 1 y agrego a cola.
+7> Fecha creada en forma exitosa.
+8> 9> Se insertó el perro en la cola de prioridad.
+10> #  verifico que el perro 1 está en la cola.
+11> El perro con id 8 NO está en la cola de prioridad.
+12> #  el perro 1 es el único y el prioritario.
+13> Perro 1
+Nombre: Rocky
+Edad: 3
+Descripcion:  Un Beagle amigable
+Fecha de ingreso: 10/10/2021
+Vitalidad: 10
+14> #  elimino el perro 1 de la cola.
+15> Se eliminó el elemento prioritario de la cola de prioridad.
+16> #  ahora no debería estar y la cola es vacía.
+17> El perro con id 8 NO está en la cola de prioridad.
+18> La cola de prioridad es vacía.
+19> #  creo Perro 2 y agrego a cola.
+20> Fecha creada en forma exitosa.
+21> 22> Se insertó el perro en la cola de prioridad.
+23> #  creo Perro 3 y agrego a cola.
+24> Fecha creada en forma exitosa.
+25> 26> Se insertó el perro en la cola de prioridad.
+27> #  creo Perro 4 y agrego a cola.
+28> Fecha creada en forma exitosa.
+29> 30> Se insertó el perro en la cola de prioridad.
+31> #  creo Perro 5 y agrego a cola.
+32> Fecha creada en forma exitosa.
+33> 34> Se insertó el perro en la cola de prioridad.
+35> #  creo Perro 6 y agrego a cola.
+36> Fecha creada en forma exitosa.
+37> 38> Se insertó el perro en la cola de prioridad.
+39> #  creo Perro 7 y agrego a cola.
+40> Fecha creada en forma exitosa.
+41> 42> Se insertó el perro en la cola de prioridad.
+43> #  creo Perro 8 y agrego a cola.
+44> Fecha creada en forma exitosa.
+45> 46> Se insertó el perro en la cola de prioridad.
+47> #  creo Perro 9 y agrego a cola.
+48> Fecha creada en forma exitosa.
+49> 50> Se insertó el perro en la cola de prioridad.
+51> #  creo Perro 10 y agrego a cola.
+52> Fecha creada en forma exitosa.
+53> 54> Se insertó el perro en la cola de prioridad.
+55> #  el perro prioritario es el 10 con vitalidad 1.
+56> Perro 10
+Nombre: Nala
+Edad: 3
+Descripcion:  Un Chihuahua pequeño pero audaz
+Fecha de ingreso: 4/10/2022
+Vitalidad: 1
+57> #  ahora lo elimino y el prioritario es el 2 con vitalidad 2.
+58> Se eliminó el elemento prioritario de la cola de prioridad.
+59> Perro 2
+Nombre: Luna
+Edad: 3
+Descripcion:  Una Labradora juguetona
+Fecha de ingreso: 7/10/2022
+Vitalidad: 2
+60> #  vuelvo a eliminar y el prioritario es el 5 con vitalidad 3.
+61> Se eliminó el elemento prioritario de la cola de prioridad.
+62> Perro 5
+Nombre: Toby
+Edad: 3
+Descripcion:  Un Pastor Alemán leal
+Fecha de ingreso: 2/10/2022
+Vitalidad: 3
+63> #  creo Perro 11 y agrego a cola.
+64> Fecha creada en forma exitosa.
+65> 66> Se insertó el perro en la cola de prioridad.
+67> #  creo Perro 12 y agrego a cola.
+68> Fecha creada en forma exitosa.
+69> 70> Se insertó el perro en la cola de prioridad.
+71> #  creo Perro 13 y agrego a cola.
+72> Fecha creada en forma exitosa.
+73> 74> Se insertó el perro en la cola de prioridad.
+75> #  ahora el 13 es el prioritario con vitalidad 1.
+76> Perro 13
+Nombre: Mia
+Edad: 3
+Descripcion:  Un perro amigable
+Fecha de ingreso: 10/10/2022
+Vitalidad: 1
+77> #  vuelvo a eliminar y el prioritario es el 12 con vitalidad 2.
+78> Se eliminó el elemento prioritario de la cola de prioridad.
+79> Perro 12
+Nombre: Otto
+Edad: 3
+Descripcion:  Un Doberman protector
+Fecha de ingreso: 10/10/2021
+Vitalidad: 2
+80> #  vuelvo a eliminar y el prioritario es el 5 con vitalidad 3.
+81> Se eliminó el elemento prioritario de la cola de prioridad.
+82> Perro 5
+Nombre: Toby
+Edad: 3
+Descripcion:  Un Pastor Alemán leal
+Fecha de ingreso: 2/10/2022
+Vitalidad: 3
+83> Se eliminó el elemento prioritario de la cola de prioridad.
+84> Se eliminó el elemento prioritario de la cola de prioridad.
+85> Se eliminó el elemento prioritario de la cola de prioridad.
+86> Se eliminó el elemento prioritario de la cola de prioridad.
+87> Se eliminó el elemento prioritario de la cola de prioridad.
+88> Se eliminó el elemento prioritario de la cola de prioridad.
+89> Se eliminó el elemento prioritario de la cola de prioridad.
+90> #  siguen quedando elementos en la cola.
+91> La cola de prioridad NO es vacía.
+92> #  el prioritario es el perro 11 con vitalidad 15.
+93> Perro 11
+Nombre: Zeus
+Edad: 3
+Descripcion:  Una Poodle elegante
+Fecha de ingreso: 6/6/6
+Vitalidad: 15
+94> #  elimino y ahora si queda vacía.
+95> Se eliminó el elemento prioritario de la cola de prioridad.
+96> La cola de prioridad es vacía.
+97> Se liberó la cola de prioridad de perros
+98> Fin.

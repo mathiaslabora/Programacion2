@@ -1,0 +1,30 @@
+crearAGFichaVacunacion
+igualesAGFichaVacunacion 0
+insertarVacunaAGFichaVacunacion -1 100
+igualesAGFichaVacunacion 0
+igualesAGFichaVacunacion 1 -1 100
+insertarVacunaAGFichaVacunacion 100 101
+insertarVacunaAGFichaVacunacion 100 102
+insertarVacunaAGFichaVacunacion 100 103
+insertarVacunaAGFichaVacunacion 100 104
+igualesAGFichaVacunacion 0
+igualesAGFichaVacunacion 4 -1 100 100 101 100 102 100 103
+# comparo contra el mismo árbol (insertado en el mismo orden)
+igualesAGFichaVacunacion 5 -1 100 100 101 100 102 100 103 100 104
+# comparo contra un árbol con mismos 4 hijos pero en diferente orden
+igualesAGFichaVacunacion 5 -1 100 100 102 100 101 100 104 100 103
+insertarVacunaAGFichaVacunacion 102 200
+insertarVacunaAGFichaVacunacion 102 201
+insertarVacunaAGFichaVacunacion 102 202
+insertarVacunaAGFichaVacunacion 103 300
+insertarVacunaAGFichaVacunacion 103 301
+insertarVacunaAGFichaVacunacion 103 302
+igualesAGFichaVacunacion 0
+# comparo contra el mismo árbol (insertado en el mismo orden)
+igualesAGFichaVacunacion 11 -1 100 100 101 100 102 100 103 100 104 102 200 102 201 102 202 103 300 103 301 103 302
+# comparo contra el mismo árbol de arriba pero con orden diferente
+igualesAGFichaVacunacion 11 -1 100 100 101 100 102 100 103 100 104 102 202 102 201 102 200 103 301 103 302 103 300
+# comparo contra un árbol con mismos nodos pero hijos de diferentes padres
+igualesAGFichaVacunacion 11 -1 100 100 101 100 102 100 103 100 104 102 300 102 201 102 302 103 200 103 301 103 202
+liberarAGFichaVacunacion
+Fin

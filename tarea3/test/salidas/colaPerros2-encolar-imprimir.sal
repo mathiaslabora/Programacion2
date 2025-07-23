@@ -1,0 +1,82 @@
+1> Se ejecutó 'crearTColaPerros' exitosamente
+2> Cola de Perros:
+3> Fecha creada en forma exitosa.
+4> 5> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 1
+6> Cola de Perros:
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 3/2/2024
+Vitalidad: 10
+7> Fecha creada en forma exitosa.
+8> 9> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 9
+10> Cola de Perros:
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 3/2/2024
+Vitalidad: 10
+Perro 9
+Nombre: Voltorb
+Edad: 5
+Descripcion:  Golden Retriever, amigable y leal, pelaje dorado brillante
+Fecha de ingreso: 5/1/2024
+Vitalidad: 12
+11> Se ejecutó 'liberarTColaPerros' exitosamente
+12> Se ejecutó 'crearTColaPerros' exitosamente
+13> Fecha creada en forma exitosa.
+14> 15> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 7
+16> Fecha creada en forma exitosa.
+17> 18> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 4
+19> Fecha creada en forma exitosa.
+20> 21> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 8
+22> Cola de Perros:
+Perro 7
+Nombre: Luna
+Edad: 4
+Descripcion:  Husky siberiana enérgica con ojos azules que disfruta correr en la nieve
+Fecha de ingreso: 20/12/2024
+Vitalidad: 10
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 21/12/2024
+Vitalidad: 9
+Perro 8
+Nombre: Tritón
+Edad: 9
+Descripcion:  Un Poodle inteligente y juguetón con un pelaje rizado y elegante
+Fecha de ingreso: 21/12/2024
+Vitalidad: 8
+23> Fecha creada en forma exitosa.
+24> 25> Se ejecutó 'encolarTColaPerros' exitosamente con perro de id 3
+26> Cola de Perros:
+Perro 7
+Nombre: Luna
+Edad: 4
+Descripcion:  Husky siberiana enérgica con ojos azules que disfruta correr en la nieve
+Fecha de ingreso: 20/12/2024
+Vitalidad: 10
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 21/12/2024
+Vitalidad: 9
+Perro 8
+Nombre: Tritón
+Edad: 9
+Descripcion:  Un Poodle inteligente y juguetón con un pelaje rizado y elegante
+Fecha de ingreso: 21/12/2024
+Vitalidad: 8
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 22/12/2024
+Vitalidad: 5
+27> Se ejecutó 'liberarTColaPerros' exitosamente
+28> Fin.

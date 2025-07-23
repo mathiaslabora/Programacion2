@@ -1,0 +1,279 @@
+1> Refugio creado.
+2> #  Registrar personas.
+3> 4> Se registró la persona de ci 12345678 en el refugio.
+5> 6> Se registró la persona de ci 14523697 en el refugio.
+7> 8> Se registró la persona de ci 29746315 en el refugio.
+9> 10> Se registró la persona de ci 86541239 en el refugio.
+11> Persona Juan Paz
+CI: 12345678
+Fecha de Nacimiento: 12/5/1995
+Perros adoptados:
+Persona Maria Martinez
+CI: 14523697
+Fecha de Nacimiento: 15/2/1999
+Perros adoptados:
+Persona Carlos Paez
+CI: 29746315
+Fecha de Nacimiento: 7/8/2000
+Perros adoptados:
+Persona Julieta Suarez
+CI: 86541239
+Fecha de Nacimiento: 4/10/1989
+Perros adoptados:
+12> #  Registrar perros .
+13> #  Creo e inserto el perro 1.
+14> Fecha creada en forma exitosa.
+15> 16> Se ingresó el perro de id 1 en el refugio.
+17> #  Creo e inserto el perro 2.
+18> Fecha creada en forma exitosa.
+19> 20> Se ingresó el perro de id 2 en el refugio.
+21> #  Creo e inserto el perro 3.
+22> Fecha creada en forma exitosa.
+23> 24> Se ingresó el perro de id 3 en el refugio.
+25> #  Creo e inserto el perro 4.
+26> Fecha creada en forma exitosa.
+27> 28> Se ingresó el perro de id 4 en el refugio.
+29> #  Creo e inserto el perro 5.
+30> Fecha creada en forma exitosa.
+31> 32> Se ingresó el perro de id 5 en el refugio.
+33> #  Creo e inserto el perro 6.
+34> Fecha creada en forma exitosa.
+35> 36> Se ingresó el perro de id 6 en el refugio.
+37> #  Creo e inserto el perro 7.
+38> Fecha creada en forma exitosa.
+39> 40> Se ingresó el perro de id 7 en el refugio.
+41> LDE Perros:
+Perro 7
+Nombre: Turing
+Edad: 10
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 4/5/1999
+Vitalidad: 2
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+Perro 5
+Nombre: Tinker
+Edad: 2
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 15/3/2020
+Vitalidad: 8
+Perro 6
+Nombre: Amarillo
+Edad: 1
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 20/1/2015
+Vitalidad: 6
+42> Paseando perro: 1 Volta
+Paseando perro: 2 Titan
+Se pasearon 2 perros del refugio.
+43> Paseando perro: 3 Ampere
+Paseando perro: 4 Turing
+Se pasearon 2 perros del refugio.
+44> Paseando perro: 5 Tinker
+Paseando perro: 6 Amarillo
+Paseando perro: 7 Turing
+Paseando perro: 1 Volta
+Paseando perro: 2 Titan
+Paseando perro: 3 Ampere
+Se pasearon 6 perros del refugio.
+45> Cola de Perros:
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+Perro 5
+Nombre: Tinker
+Edad: 2
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 15/3/2020
+Vitalidad: 8
+Perro 6
+Nombre: Amarillo
+Edad: 1
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 20/1/2015
+Vitalidad: 6
+Perro 7
+Nombre: Turing
+Edad: 10
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 4/5/1999
+Vitalidad: 2
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+46> Paseando perro: 4 Turing
+Se pasearon 1 perros del refugio.
+47> Paseando perro: 5 Tinker
+Paseando perro: 6 Amarillo
+Paseando perro: 7 Turing
+Se pasearon 3 perros del refugio.
+48> Cola de Perros:
+Perro 1
+Nombre: Volta
+Edad: 4
+Descripcion:  Labrador Retriever, energético y juguetón, pelaje marrón claro
+Fecha de ingreso: 8/9/2021
+Vitalidad: 10
+Perro 2
+Nombre: Titan
+Edad: 8
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 22/10/2022
+Vitalidad: 7
+Perro 3
+Nombre: Ampere
+Edad: 7
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 14/7/2018
+Vitalidad: 5
+Perro 4
+Nombre: Turing
+Edad: 3
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 1/2/2008
+Vitalidad: 9
+Perro 5
+Nombre: Tinker
+Edad: 2
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 15/3/2020
+Vitalidad: 8
+Perro 6
+Nombre: Amarillo
+Edad: 1
+Descripcion:  Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+Fecha de ingreso: 20/1/2015
+Vitalidad: 6
+Perro 7
+Nombre: Turing
+Edad: 10
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 4/5/1999
+Vitalidad: 2
+49> #  Ingreso adopciones .
+50> #  Registro la adopcion entre persona 1 y perro 1.
+51> Fecha creada en forma exitosa.
+52> Se registró la adopción entre el perro de id 1 y la persona de ci 12345678 en el refugio.
+53> #  Registro la adopcion entre persona 1 y perro 2.
+54> Fecha creada en forma exitosa.
+55> Se registró la adopción entre el perro de id 2 y la persona de ci 12345678 en el refugio.
+56> #  Registro la adopcion entre persona 1 y perro 4 .
+57> Fecha creada en forma exitosa.
+58> Se registró la adopción entre el perro de id 4 y la persona de ci 12345678 en el refugio.
+59> #  Registro la adopcion entre persona 1 y perro 3.
+60> Fecha creada en forma exitosa.
+61> Se registró la adopción entre el perro de id 3 y la persona de ci 12345678 en el refugio.
+62> ---------------------------
+Adopcion en fecha 4/3/2025
+Adoptante:
+Persona Juan Paz
+CI: 12345678
+Adoptado:
+Perro 3
+Nombre: Ampere
+Fecha de ingreso: 14/7/2018
+---------------------------
+---------------------------
+Adopcion en fecha 5/3/2025
+Adoptante:
+Persona Juan Paz
+CI: 12345678
+Adoptado:
+Perro 4
+Nombre: Turing
+Fecha de ingreso: 1/2/2008
+---------------------------
+---------------------------
+Adopcion en fecha 7/5/2025
+Adoptante:
+Persona Juan Paz
+CI: 12345678
+Adoptado:
+Perro 2
+Nombre: Titan
+Fecha de ingreso: 22/10/2022
+---------------------------
+---------------------------
+Adopcion en fecha 10/5/2025
+Adoptante:
+Persona Juan Paz
+CI: 12345678
+Adoptado:
+Perro 1
+Nombre: Volta
+Fecha de ingreso: 8/9/2021
+---------------------------
+63> #  Creo esquema de vacunacion .
+64> 65> 66> 67> 68> 69> 70> 71> 72> Ficha Vacunacion:
+10
+    15
+        50
+    30
+        8
+        5
+            40
+    20
+73> #  completo esquema para perro 6.
+74> Se vacunó al perro 6 con la vacuna (-1, 10).
+75> Se vacunó al perro 6 con la vacuna (10, 30).
+76> Se vacunó al perro 6 con la vacuna (10, 15).
+77> Se vacunó al perro 6 con la vacuna (10, 20).
+78> Se vacunó al perro 6 con la vacuna (30, 8).
+79> Se vacunó al perro 6 con la vacuna (30, 5).
+80> Se vacunó al perro 6 con la vacuna (5, 40).
+81> Se vacunó al perro 6 con la vacuna (15, 50).
+82> Los perros sin vacunación son: 
+Perro 7
+Nombre: Turing
+Edad: 10
+Descripcion:  Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+Fecha de ingreso: 4/5/1999
+Vitalidad: 2
+Perro 5
+Nombre: Tinker
+Edad: 2
+Descripcion:  Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+Fecha de ingreso: 15/3/2020
+Vitalidad: 8
+83> Se liberó la memoria asociada al refugio.
+84> Fin.

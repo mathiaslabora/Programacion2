@@ -1,0 +1,86 @@
+1> #  Test para TColaDePrioridadPerros: prioritario, prioridad, insertar.
+2> Se creó una cola de prioridad de perros con cantidad maxima 25
+3> #  creo Perro 1 (Vitalidad 10).
+4> Fecha creada en forma exitosa.
+5> 6> Se insertó el perro en la cola de prioridad.
+7> La prioridad del perro de id 1 es 10
+8> #  Perro 2 (Vitalidad 5) - más prioritario que Perro 1.
+9> Fecha creada en forma exitosa.
+10> 11> Se insertó el perro en la cola de prioridad.
+12> La prioridad del perro de id 2 es 5
+13> #  el perro prioritario es el 2 (Vitalidad 5).
+14> Perro 2
+Nombre: Luna
+Edad: 3
+Descripcion:  Una Labradora juguetona
+Fecha de ingreso: 10/10/2022
+Vitalidad: 5
+15> #  creo Perro 3 (Vitalidad 10) - igual que Perro 1.
+16> Fecha creada en forma exitosa.
+17> 18> Se insertó el perro en la cola de prioridad.
+19> La prioridad del perro de id 3 es 10
+20> #  el perro prioritario sigue siendo 2 (Vitalidad 5).
+21> Perro 2
+Nombre: Luna
+Edad: 3
+Descripcion:  Una Labradora juguetona
+Fecha de ingreso: 10/10/2022
+Vitalidad: 5
+22> #  Perro 1 está en la cola.
+23> El perro con id 1 está en la cola de prioridad.
+24> #  creo Perro 4 (Vitalidad 3) e inserto en cola - nuevo prioritario.
+25> Fecha creada en forma exitosa.
+26> 27> Se insertó el perro en la cola de prioridad.
+28> La prioridad del perro de id 4 es 3
+29> #  ahora el perro prioritario es el 4 (Vitalidad 3).
+30> Perro 4
+Nombre: Lola
+Edad: 1
+Descripcion:  Una Bulldog cariñosa
+Fecha de ingreso: 1/10/2022
+Vitalidad: 3
+31> #  creo Perro 5 (Vitalidad 1) como mas prioritario y agrego a cola.
+32> Fecha creada en forma exitosa.
+33> 34> Se insertó el perro en la cola de prioridad.
+35> La prioridad del perro de id 5 es 1
+36> #  creo Perro 6 (Vitalidad 8) y agrego a cola.
+37> Fecha creada en forma exitosa.
+38> 39> Se insertó el perro en la cola de prioridad.
+40> La prioridad del perro de id 6 es 8
+41> #  creo Perro 7 (Vitalidad 9) y agrego a cola.
+42> Fecha creada en forma exitosa.
+43> 44> Se insertó el perro en la cola de prioridad.
+45> La prioridad del perro de id 7 es 9
+46> #  creo Perro 8 (Vitalidad 12) y agrego a cola.
+47> Fecha creada en forma exitosa.
+48> 49> Se insertó el perro en la cola de prioridad.
+50> La prioridad del perro de id 8 es 12
+51> #  creo Perro 9 (Vitalidad 4) y agrego a cola.
+52> Fecha creada en forma exitosa.
+53> 54> Se insertó el perro en la cola de prioridad.
+55> La prioridad del perro de id 9 es 4
+56> #  creo Perro 10 (Vitalidad 7) y agrego a cola.
+57> Fecha creada en forma exitosa.
+58> 59> Se insertó el perro en la cola de prioridad.
+60> La prioridad del perro de id 10 es 7
+61> #  creo Perro 11 (Vitalidad 6) y agrego a cola.
+62> Fecha creada en forma exitosa.
+63> 64> Se insertó el perro en la cola de prioridad.
+65> La prioridad del perro de id 11 es 6
+66> #  creo Perro 12 (Vitalidad 5) y agrego a cola - igual vitalidad que Perro 2.
+67> Fecha creada en forma exitosa.
+68> 69> Se insertó el perro en la cola de prioridad.
+70> La prioridad del perro de id 12 es 5
+71> #  ahora el perro prioritario es el 5 (Vitalidad 1).
+72> Perro 5
+Nombre: Max
+Edad: 6
+Descripcion:  Un Pastor Alemán leal
+Fecha de ingreso: 1/10/2020
+Vitalidad: 1
+73> #  verifico que el perro 8 está en la cola.
+74> El perro con id 8 está en la cola de prioridad.
+75> #  verifico que el perro 7 está en la cola.
+76> El perro con id 7 está en la cola de prioridad.
+77> Se liberó la cola de prioridad de perros
+78> Fin.

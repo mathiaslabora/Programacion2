@@ -1,0 +1,105 @@
+crearRefugio 10
+
+# Registrar personas
+crearPersona 12345678 Juan Paz 12 5 1995
+registrarPersonaRefugio
+crearPersona 14523697 Maria Martinez 15 2 1999
+registrarPersonaRefugio
+crearPersona 29746315 Carlos Paez 7 8 2000 
+registrarPersonaRefugio
+crearPersona 86541239 Julieta Suarez 4 10 1989 
+registrarPersonaRefugio
+
+imprimirPersonasRefugio
+
+# Registrar perros 
+
+# Creo e inserto el perro 1
+crearFecha 08/09/2021
+crearPerro 1 Volta 4 10 Labrador Retriever, energético y juguetón, pelaje marrón claro
+ingresarPerroRefugio
+# Creo e inserto el perro 2
+crearFecha 22/10/2022
+crearPerro 2 Titan 8 7 Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+ingresarPerroRefugio
+# Creo e inserto el perro 3
+crearFecha 14/07/2018
+crearPerro 3 Ampere 7 5 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+ingresarPerroRefugio
+# Creo e inserto el perro 4
+crearFecha 01/02/2008
+crearPerro 4 Turing 3 9 Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+ingresarPerroRefugio
+# Creo e inserto el perro 5
+crearFecha 15/03/2020
+crearPerro 5 Tinker 2 8 Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+ingresarPerroRefugio
+# Creo e inserto el perro 6
+crearFecha 20/01/2015
+crearPerro 6 Amarillo 1 6 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+ingresarPerroRefugio
+# Creo e inserto el perro 7
+crearFecha 4/5/1999
+crearPerro 7 Turing 10 2 Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+ingresarPerroRefugio
+
+imprimirPerrosRefugio F
+
+pasearPerrosRefugio 2
+pasearPerrosRefugio 2
+pasearPerrosRefugio 6
+
+imprimirColaPaseosRefugio
+
+pasearPerrosRefugio 1
+pasearPerrosRefugio 3
+
+imprimirColaPaseosRefugio
+
+# Ingreso adopciones 
+
+# Registro la adopcion entre persona 1 y perro 1
+crearFecha 10/5/2025
+adoptarPerroRefugio 1 12345678
+
+# Registro la adopcion entre persona 1 y perro 2
+crearFecha 7/5/2025
+adoptarPerroRefugio 2 12345678
+
+# Registro la adopcion entre persona 1 y perro 4 
+crearFecha 5/3/2025
+adoptarPerroRefugio 4 12345678
+
+# Registro la adopcion entre persona 1 y perro 3
+crearFecha 4/3/2025
+adoptarPerroRefugio 3 12345678
+
+imprimirAdopcionesRefugio
+
+# Creo esquema de vacunacion 
+
+agregarVacunaRefugio -1 10
+agregarVacunaRefugio 10 20 
+agregarVacunaRefugio 10 30 
+agregarVacunaRefugio 10 15
+agregarVacunaRefugio 30 5
+agregarVacunaRefugio 30 8
+agregarVacunaRefugio 5 40
+agregarVacunaRefugio 15 50
+
+imprimirEsquemaVacunacionRefugio
+
+# completo esquema para perro 6
+vacunarPerroRefugio 6 -1 10
+vacunarPerroRefugio 6 10 30
+vacunarPerroRefugio 6 10 15
+vacunarPerroRefugio 6 10 20
+vacunarPerroRefugio 6 30 8
+vacunarPerroRefugio 6 30 5
+vacunarPerroRefugio 6 5 40
+vacunarPerroRefugio 6 15 50
+
+obtenerPerrosSinVacunacionRefugio 
+
+liberarRefugio
+Fin

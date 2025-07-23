@@ -1,0 +1,153 @@
+1> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+2> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 1.
+3> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 1 y codVacuna 11.
+4> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 1 y codVacuna 12.
+5> Las fichas de vacunación son iguales.
+6> Ficha Vacunacion:
+1
+    12
+    11
+7> Existen 3 vacunas en la ficha de vacunación.
+8> La altura de la ficha de vacunación (árbol general) es: 2.
+9> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 11 y codVacuna 111.
+10> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 11 y codVacuna 112.
+11> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 11 y codVacuna 113.
+12> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 12 y codVacuna 121.
+13> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 12 y codVacuna 122.
+14> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 12 y codVacuna 123.
+15> Ficha Vacunacion:
+1
+    12
+        123
+        122
+        121
+    11
+        113
+        112
+        111
+16> Existen 9 vacunas en la ficha de vacunación.
+17> La altura de la ficha de vacunación (árbol general) es: 3.
+18> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 111 y codVacuna 1111.
+19> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 111 y codVacuna 1112.
+20> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 111 y codVacuna 1113.
+21> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 111 y codVacuna 1114.
+22> Existen 13 vacunas en la ficha de vacunación.
+23> La altura de la ficha de vacunación (árbol general) es: 4.
+24> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 112 y codVacuna 1121.
+25> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 112 y codVacuna 1122.
+26> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 112 y codVacuna 1123.
+27> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 112 y codVacuna 1124.
+28> Existen 17 vacunas en la ficha de vacunación.
+29> La altura de la ficha de vacunación (árbol general) es: 4.
+30> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 113 y codVacuna 1131.
+31> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 113 y codVacuna 1132.
+32> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 113 y codVacuna 1133.
+33> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 113 y codVacuna 1134.
+34> Existen 21 vacunas en la ficha de vacunación.
+35> La altura de la ficha de vacunación (árbol general) es: 4.
+36> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 121 y codVacuna 1211.
+37> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 121 y codVacuna 1212.
+38> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 121 y codVacuna 1213.
+39> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 121 y codVacuna 1214.
+40> Existen 25 vacunas en la ficha de vacunación.
+41> La altura de la ficha de vacunación (árbol general) es: 4.
+42> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 122 y codVacuna 1221.
+43> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 122 y codVacuna 1222.
+44> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 122 y codVacuna 1223.
+45> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 122 y codVacuna 1224.
+46> Existen 29 vacunas en la ficha de vacunación.
+47> La altura de la ficha de vacunación (árbol general) es: 4.
+48> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 123 y codVacuna 1231.
+49> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 123 y codVacuna 1232.
+50> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 123 y codVacuna 1233.
+51> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 123 y codVacuna 1234.
+52> Existen 33 vacunas en la ficha de vacunación.
+53> La altura de la ficha de vacunación (árbol general) es: 4.
+54> Ficha Vacunacion:
+1
+    12
+        123
+            1234
+            1233
+            1232
+            1231
+        122
+            1224
+            1223
+            1222
+            1221
+        121
+            1214
+            1213
+            1212
+            1211
+    11
+        113
+            1134
+            1133
+            1132
+            1131
+        112
+            1124
+            1123
+            1122
+            1121
+        111
+            1114
+            1113
+            1112
+            1111
+55> Vacuna de código 123 removida.
+56> Existen 28 vacunas en la ficha de vacunación.
+57> Ficha Vacunacion:
+1
+    12
+        122
+            1224
+            1223
+            1222
+            1221
+        121
+            1214
+            1213
+            1212
+            1211
+    11
+        113
+            1134
+            1133
+            1132
+            1131
+        112
+            1124
+            1123
+            1122
+            1121
+        111
+            1114
+            1113
+            1112
+            1111
+58> Vacuna de código 12 removida.
+59> Existen 17 vacunas en la ficha de vacunación.
+60> Ficha Vacunacion:
+1
+    11
+        113
+            1134
+            1133
+            1132
+            1131
+        112
+            1124
+            1123
+            1122
+            1121
+        111
+            1114
+            1113
+            1112
+            1111
+61> La altura de la ficha de vacunación (árbol general) es: 4.
+62> Se ejecutó 'liberarTAGFichaVacunacion' exitosamente.
+63> Fin.

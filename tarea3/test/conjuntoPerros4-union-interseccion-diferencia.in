@@ -1,0 +1,28 @@
+crearConjuntoPerros 10
+insertarConjuntoPerros 0
+insertarConjuntoPerros 1
+insertarConjuntoPerros 2
+insertarConjuntoPerros 3
+insertarConjuntoPerros 6
+insertarConjuntoPerros 7
+insertarConjuntoPerros 8
+insertarConjuntoPerros 9
+imprimirConjuntoPerros
+# unión con 1
+unionConjuntoPerros 1 1
+# intersección con 1
+interseccionConjuntoPerros 1 1
+# diferencia con 1
+diferenciaConjuntoPerros 1 1
+# intersección con 1 3 4 5 6
+interseccionConjuntoPerros 5 1 3 4 5 6
+# diferencia con 1 3 4 5 6
+diferenciaConjuntoPerros 5 1 3 4 5 6
+# unión con conjunto vacío
+unionConjuntoPerros 0
+# intersección con conjunto vacío
+interseccionConjuntoPerros 0
+# diferencia con conjunto vacío
+diferenciaConjuntoPerros 0
+liberarConjuntoPerros
+Fin

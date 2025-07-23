@@ -1,0 +1,76 @@
+1> #  Test para insertar e imprimir TTablaFichaVacunacion.
+2> #  Parte 1: Inserciones sin colisiones.
+3> #  creo una tabla de tamanio 4.
+4> Tabla de fichas de vacunación con cantidad estimada 4 creada.
+5> #  creo una ficha para el perro con ID 1 y la inserto en la tabla.
+6> #  idPerro = 1, tamanio = 4 -> pos = 1 % 4 = 1.
+7> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+8> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 101.
+9> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 101 y codVacuna 102.
+10> Se insertó la asociación de ficha de vacunación para el perro de id (1) en la tabla de fichas de vacunación.
+11> #  creo una ficha para el perro con ID 2 y la inserto en la tabla.
+12> #  idPerro = 2, tamanio = 4 -> pos = 2 % 4 = 2.
+13> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+14> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 201.
+15> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 201 y codVacuna 202.
+16> Se insertó la asociación de ficha de vacunación para el perro de id (2) en la tabla de fichas de vacunación.
+17> #  imprimo la tabla.
+18> #  Debería imprimir primero la ficha del perro 1 (desde la posición 1 de la tabla hash).
+19> #  Luego la ficha del perro 2 (desde la posición 2 de la tabla hash).
+20> Perro ID: 1
+Ficha Vacunacion:
+101
+    102
+Perro ID: 2
+Ficha Vacunacion:
+201
+    202
+21> #  libero la tabla.
+22> Se liberó la tabla de fichas de vacunación.
+23> # 
+.
+24> #  Parte 2: Inserciones con colisiones.
+25> # 
+.
+26> #  creo una tabla de tamanio 4.
+27> Tabla de fichas de vacunación con cantidad estimada 4 creada.
+28> #  creo una ficha para el perro con ID 1 y la inserto en la tabla.
+29> #  idPerro = 1, tamanio = 4 -> pos = 1 % 4 = 1.
+30> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+31> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 10.
+32> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 10 y codVacuna 11.
+33> Se insertó la asociación de ficha de vacunación para el perro de id (1) en la tabla de fichas de vacunación.
+34> #  creo una ficha para el perro con ID 5 y la inserto en la tabla.
+35> #  idPerro = 5, tamanio = 4 -> pos = 5 % 4 = 1 (colisión con perro 1).
+36> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+37> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 50.
+38> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 50 y codVacuna 51.
+39> Se insertó la asociación de ficha de vacunación para el perro de id (5) en la tabla de fichas de vacunación.
+40> #  creo una ficha para el perro con ID 2 y la inserto en la tabla.
+41> #  idPerro = 2, tamanio = 4 -> pos = 2 % 4 = 2.
+42> Se ejecutó 'crearTAGFichaVacunacion' exitosamente.
+43> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre -1 y codVacuna 20.
+44> Se ejecutó 'insertarVacunaTAGFichaVacunacion' con codVacunaPadre 20 y codVacuna 21.
+45> Se insertó la asociación de ficha de vacunación para el perro de id (2) en la tabla de fichas de vacunación.
+46> #  imprimo la tabla.
+47> #  Orden esperado:.
+48> #  Posición 1 de la tabla hash:.
+49> #    Ficha del perro 5 (Ficha B - insertada más recientemente en esta posición).
+50> #    Ficha del perro 1 (Ficha A).
+51> #  Posición 2 de la tabla hash:.
+52> #    Ficha del perro 2 (Ficha C).
+53> Perro ID: 5
+Ficha Vacunacion:
+50
+    51
+Perro ID: 1
+Ficha Vacunacion:
+10
+    11
+Perro ID: 2
+Ficha Vacunacion:
+20
+    21
+54> #  libero la tabla.
+55> Se liberó la tabla de fichas de vacunación.
+56> Fin.

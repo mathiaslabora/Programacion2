@@ -1,0 +1,57 @@
+1> La LDE de perros ha sido creado de forma exitosa.
+2> #  lista vacia .
+3> Pila:
+4> #  menores contiguos.
+5> Fecha creada en forma exitosa.
+6> 7> Se ha agregado el perro a la lista de forma exitosa.
+8> Fecha creada en forma exitosa.
+9> 10> Se ha agregado el perro a la lista de forma exitosa.
+11> Fecha creada en forma exitosa.
+12> 13> Se ha agregado el perro a la lista de forma exitosa.
+14> Pila: 3 7
+15> #  menores intercalados.
+16> Fecha creada en forma exitosa.
+17> 18> Se ha agregado el perro a la lista de forma exitosa.
+19> Fecha creada en forma exitosa.
+20> 21> Se ha agregado el perro a la lista de forma exitosa.
+22> Fecha creada en forma exitosa.
+23> 24> Se ha agregado el perro a la lista de forma exitosa.
+25> Pila: 2 7
+26> #  todos menores.
+27> Fecha creada en forma exitosa.
+28> 29> Se ha agregado el perro a la lista de forma exitosa.
+30> Fecha creada en forma exitosa.
+31> 32> Se ha agregado el perro a la lista de forma exitosa.
+33> Fecha creada en forma exitosa.
+34> 35> Se ha agregado el perro a la lista de forma exitosa.
+36> Pila: 2 3 7
+37> #  un único menor.
+38> Fecha creada en forma exitosa.
+39> 40> Se ha agregado el perro a la lista de forma exitosa.
+41> Fecha creada en forma exitosa.
+42> 43> Se ha agregado el perro a la lista de forma exitosa.
+44> Fecha creada en forma exitosa.
+45> 46> Se ha agregado el perro a la lista de forma exitosa.
+47> Pila: 9
+48> #  empates .
+49> Fecha creada en forma exitosa.
+50> 51> Se ha agregado el perro a la lista de forma exitosa.
+52> Fecha creada en forma exitosa.
+53> 54> Se ha agregado el perro a la lista de forma exitosa.
+55> Fecha creada en forma exitosa.
+56> 57> Se ha agregado el perro a la lista de forma exitosa.
+58> Fecha creada en forma exitosa.
+59> 60> Se ha agregado el perro a la lista de forma exitosa.
+61> Pila: 2 7
+62> #  empates intercalados .
+63> Fecha creada en forma exitosa.
+64> 65> Se ha agregado el perro a la lista de forma exitosa.
+66> Fecha creada en forma exitosa.
+67> 68> Se ha agregado el perro a la lista de forma exitosa.
+69> Fecha creada en forma exitosa.
+70> 71> Se ha agregado el perro a la lista de forma exitosa.
+72> Fecha creada en forma exitosa.
+73> 74> Se ha agregado el perro a la lista de forma exitosa.
+75> Pila: 5 8
+76> Lista doblemente encadenada de perros liberada.
+77> Fin.

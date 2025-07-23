@@ -1,0 +1,16 @@
+crearPila
+imprimirPila
+apilarPila 30
+imprimirPila
+apilarPila 1
+imprimirPila
+liberarPila
+crearPila
+apilarPila 5
+apilarPila 3
+apilarPila 20
+imprimirPila
+apilarPila 17
+imprimirPila
+liberarPila
+Fin

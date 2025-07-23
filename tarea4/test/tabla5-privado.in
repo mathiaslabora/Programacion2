@@ -1,0 +1,122 @@
+# creo una tabla de tamanio 10
+crearTabla 10
+
+# Perro ID 10 (pos = 10 % 10 = 0)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 1001 # Raíz: codVacuna 1001
+insertarEnTabla 10
+perteneceATabla 10
+obtenerDeTabla 10
+
+# Perro ID 9 (pos = 9 % 10 = 9)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 901 # Raíz: codVacuna 901
+insertarEnTabla 9
+perteneceATabla 9
+obtenerDeTabla 9
+
+# Perro ID 8 (pos = 8 % 10 = 8)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 801 # Raíz: codVacuna 801
+insertarEnTabla 8
+perteneceATabla 8
+obtenerDeTabla 8
+
+# Perro ID 7 (pos = 7 % 10 = 7)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 701 # Raíz: codVacuna 701
+insertarEnTabla 7
+perteneceATabla 7
+obtenerDeTabla 7
+
+# Perro ID 6 (pos = 6 % 10 = 6)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 601 # Raíz: codVacuna 601
+insertarEnTabla 6
+perteneceATabla 6
+obtenerDeTabla 6
+
+# Perro ID 1 (pos = 1 % 10 = 1)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 101 # Raíz: codVacuna 101
+insertarEnTabla 1
+perteneceATabla 1
+obtenerDeTabla 1
+
+# Perro ID 2 (pos = 2 % 10 = 2)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 201 # Raíz: codVacuna 201
+insertarEnTabla 2
+perteneceATabla 2
+obtenerDeTabla 2
+
+# Perro ID 3 (pos = 3 % 10 = 3)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 301 # Raíz: codVacuna 301
+insertarEnTabla 3
+perteneceATabla 3
+obtenerDeTabla 3
+
+# Perro ID 4 (pos = 4 % 10 = 4)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 401 # Raíz: codVacuna 401
+insertarEnTabla 4
+perteneceATabla 4
+obtenerDeTabla 4
+
+# Perro ID 5 (pos = 5 % 10 = 5)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 501 # Raíz: codVacuna 501
+insertarEnTabla 5
+perteneceATabla 5
+obtenerDeTabla 5
+
+imprimirTabla
+
+# elimino las primer y última y verifico que no pertenecen
+perteneceATabla 1
+eliminarDeTabla 1
+perteneceATabla 1
+perteneceATabla 8
+eliminarDeTabla 8
+perteneceATabla 8
+
+imprimirTabla
+
+# agrego tres fichas que colisionan en el mismo lugar en la tabla
+# Perro ID 100 (pos = 100 % 10 = 0)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 10001 # Raíz: codVacuna 10001
+insertarEnTabla 100
+perteneceATabla 100
+obtenerDeTabla 100
+
+# Perro ID 700 (pos = 700 % 10 = 0, colisión con perro 100)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 70001 # Raíz: codVacuna 70001
+insertarEnTabla 700
+perteneceATabla 700
+obtenerDeTabla 700
+
+# Perro ID 800 (pos = 800 % 10 = 0, colisión con perro 100)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 70001 # Raíz: codVacuna 70001
+insertarEnTabla 800
+perteneceATabla 800
+obtenerDeTabla 800
+
+# elimino el último de la lista para el lugar de la colisión
+eliminarDeTabla 10
+perteneceATabla 10
+
+imprimirTabla
+
+# elimino el primero de la lista para el lugar de la colisión
+eliminarDeTabla 800
+perteneceATabla 800
+
+imprimirTabla
+
+liberarTabla
+
+Fin

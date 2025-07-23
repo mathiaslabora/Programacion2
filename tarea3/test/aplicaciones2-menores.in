@@ -1,0 +1,85 @@
+crearLDEPerrosVacia
+
+# lista vacia 
+menoresQueElResto 
+
+# menores contiguos
+crearFecha 22/10/2022
+crearPerro 2 Titan 7 3 Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+insertarLDEPerros
+crearFecha 01/02/2008
+crearPerro 4 Turing 9 7 Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+insertarLDEPerros
+crearFecha 14/07/2018
+crearPerro 3 Ampere 5 8 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+insertarLDEPerros
+menoresQueElResto
+
+# menores intercalados
+crearFecha 22/10/2022
+crearPerro 2 Titan 7 10 Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+insertarLDEPerros
+crearFecha 01/02/2008
+crearPerro 4 Turing 9 7 Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+insertarLDEPerros
+crearFecha 14/07/2018
+crearPerro 3 Ampere 5 2 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+insertarLDEPerros
+menoresQueElResto
+
+# todos menores
+crearFecha 22/10/2022
+crearPerro 2 Titan 1 2 Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+insertarLDEPerros
+crearFecha 01/02/2008
+crearPerro 4 Turing 5 3 Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+insertarLDEPerros
+crearFecha 14/07/2018
+crearPerro 3 Ampere 8 7 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+insertarLDEPerros
+menoresQueElResto
+
+# un único menor
+crearFecha 22/10/2022
+crearPerro 2 Titan 5 10 Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+insertarLDEPerros
+crearFecha 01/02/2008
+crearPerro 4 Turing 6 15 Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+insertarLDEPerros
+crearFecha 14/07/2018
+crearPerro 3 Ampere 7 9 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+insertarLDEPerros
+menoresQueElResto
+
+# empates 
+crearFecha 22/10/2022
+crearPerro 2 Titan 1 2 Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+insertarLDEPerros
+crearFecha 01/02/2008
+crearPerro 4 Turing 2 2 Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+insertarLDEPerros
+crearFecha 14/07/2018
+crearPerro 3 Ampere 4 7 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+insertarLDEPerros
+crearFecha 14/07/2018
+crearPerro 3 Amprs 3 7 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+insertarLDEPerros
+menoresQueElResto
+
+# empates intercalados 
+crearFecha 22/10/2022
+crearPerro 2 Titan 1 5 Un Chihuahua valiente y protector con una gran personalidad en un cuerpo pequeño
+insertarLDEPerros
+crearFecha 01/02/2008
+crearPerro 4 Turing 3 5 Un Bulldog Inglés tranquilo y cariñoso que disfruta de largas siestas y abrazos
+insertarLDEPerros
+crearFecha 14/07/2018
+crearPerro 3 Ampere 2 8 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+insertarLDEPerros
+crearFecha 14/07/2018
+crearPerro 3 Amprs 4 8 Un Boxer curioso y determinado, siempre explorando y metiéndose en pequeñas travesuras
+insertarLDEPerros
+menoresQueElResto
+
+liberarLDEPerros
+Fin

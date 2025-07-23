@@ -1,0 +1,161 @@
+# Test combinado para TTablaFichaVacunacion: insertar, pertenecer, obtener, eliminar, colisiones
+
+# creo una tabla de tamanio 15
+crearTabla 15
+
+# creo 15 fichas, las inserto en la tabla, verifico que pertenezcan y las obtengo
+
+# Perro ID 1 (pos = 1 % 15 = 1)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 101 # Raíz: codVacuna 101
+insertarEnTabla 1
+perteneceATabla 1
+obtenerDeTabla 1
+
+# Perro ID 2 (pos = 2 % 15 = 2)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 201 # Raíz: codVacuna 201
+insertarEnTabla 2
+perteneceATabla 2
+obtenerDeTabla 2
+
+# Perro ID 3 (pos = 3 % 15 = 3)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 301 # Raíz: codVacuna 301
+insertarEnTabla 3
+perteneceATabla 3
+obtenerDeTabla 3
+
+# Perro ID 4 (pos = 4 % 15 = 4)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 401 # Raíz: codVacuna 401
+insertarEnTabla 4
+perteneceATabla 4
+obtenerDeTabla 4
+
+# Perro ID 5 (pos = 5 % 15 = 5)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 501 # Raíz: codVacuna 501
+insertarEnTabla 5
+perteneceATabla 5
+obtenerDeTabla 5
+
+# Perro ID 6 (pos = 6 % 15 = 6)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 601 # Raíz: codVacuna 601
+insertarEnTabla 6
+perteneceATabla 6
+obtenerDeTabla 6
+
+# Perro ID 7 (pos = 7 % 15 = 7)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 701 # Raíz: codVacuna 701
+insertarEnTabla 7
+perteneceATabla 7
+obtenerDeTabla 7
+
+# Perro ID 8 (pos = 8 % 15 = 8)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 801 # Raíz: codVacuna 801
+insertarEnTabla 8
+perteneceATabla 8
+obtenerDeTabla 8
+
+# Perro ID 9 (pos = 9 % 15 = 9)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 901 # Raíz: codVacuna 901
+insertarEnTabla 9
+perteneceATabla 9
+obtenerDeTabla 9
+
+# Perro ID 10 (pos = 10 % 15 = 10)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 1001 # Raíz: codVacuna 1001
+insertarEnTabla 10
+perteneceATabla 10
+obtenerDeTabla 10
+
+# Perro ID 11 (pos = 11 % 15 = 11)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 1101 # Raíz: codVacuna 1101
+insertarEnTabla 11
+perteneceATabla 11
+obtenerDeTabla 11
+
+# Perro ID 12 (pos = 12 % 15 = 12)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 1201 # Raíz: codVacuna 1201
+insertarEnTabla 12
+perteneceATabla 12
+obtenerDeTabla 12
+
+# Perro ID 13 (pos = 13 % 15 = 13)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 1301 # Raíz: codVacuna 1301
+insertarEnTabla 13
+perteneceATabla 13
+obtenerDeTabla 13
+
+# Perro ID 14 (pos = 14 % 15 = 14)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 1401 # Raíz: codVacuna 1401
+insertarEnTabla 14
+perteneceATabla 14
+obtenerDeTabla 14
+
+# Perro ID 15 (pos = 15 % 15 = 0)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 1501 # Raíz: codVacuna 1501
+insertarEnTabla 15
+perteneceATabla 15
+obtenerDeTabla 15
+
+# imprimo la tabla en el orden que quedaron insertados
+imprimirTabla
+
+# elimino las fichas de idPerro par y verifico que no pertenecen
+eliminarDeTabla 2
+perteneceATabla 2
+eliminarDeTabla 4
+perteneceATabla 4
+eliminarDeTabla 6
+perteneceATabla 6
+eliminarDeTabla 8
+perteneceATabla 8
+eliminarDeTabla 10
+perteneceATabla 10
+eliminarDeTabla 12
+perteneceATabla 12
+eliminarDeTabla 14
+perteneceATabla 14
+
+# imprimo la tabla 
+imprimirTabla
+
+# agrego dos fichas que colisionan en la tabla
+# Perro ID 100 (pos = 100 % 15 = 10)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 10001 # Raíz: codVacuna 10001
+insertarEnTabla 100
+perteneceATabla 100
+obtenerDeTabla 100
+
+# Perro ID 700 (pos = 700 % 15 = 10, colisión con perro 100)
+crearAGFichaVacunacion
+insertarVacunaAGFichaVacunacion -1 70001 # Raíz: codVacuna 70001
+insertarEnTabla 700
+perteneceATabla 700
+obtenerDeTabla 700
+
+# elimino la ficha del perro 100 (uno de los que colisionaban en pos 10) y verifico
+eliminarDeTabla 100
+perteneceATabla 100
+
+# elimino la ficha del perro 7 (en pos 7) y verifico
+eliminarDeTabla 7
+perteneceATabla 7
+
+# libero la tabla
+liberarTabla
+
+Fin

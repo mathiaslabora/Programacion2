@@ -1,0 +1,23 @@
+crearConjuntoPerros 2
+esVacioConjuntoPerros
+cardinalConjuntoPerros
+cantMaxConjuntoPerros
+insertarConjuntoPerros 0
+esVacioConjuntoPerros
+cardinalConjuntoPerros
+cantMaxConjuntoPerros
+insertarConjuntoPerros 4
+esVacioConjuntoPerros
+cardinalConjuntoPerros
+cantMaxConjuntoPerros
+insertarConjuntoPerros 1
+esVacioConjuntoPerros
+cardinalConjuntoPerros
+cantMaxConjuntoPerros
+insertarConjuntoPerros 1
+insertarConjuntoPerros 0
+esVacioConjuntoPerros
+cardinalConjuntoPerros
+cantMaxConjuntoPerros
+liberarConjuntoPerros
+Fin

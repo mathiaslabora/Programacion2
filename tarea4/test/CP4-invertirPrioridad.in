@@ -1,0 +1,157 @@
+# implementar invertirPrioCP
+
+crearCP 15
+
+# Caso 1: Prioridad por defecto (menor vitalidad es más prioritario)
+# creo Perro 1 con vitalidad 5
+crearFecha 5/10/2022
+crearPerro 1 Rocky 3 5 Un Beagle jugueton
+insertarEnCP
+
+# creo Perro 2 con vitalidad 10
+crearFecha 6/10/2022
+crearPerro 2 Luna 3 10 Un Labrador tranquilo
+insertarEnCP
+
+# el prioritario es el Perro 1 (vitalidad 5)
+prioritarioCP
+
+# elimino el perro prioritario 2 veces y la cola queda vacia
+eliminarPrioritarioCP
+eliminarPrioritarioCP
+esVaciaCP
+
+# Caso 2: Invierto la prioridad (mayor vitalidad es más prioritario)
+invertirPrioCP
+
+# creo Perro 3 con vitalidad 5
+crearFecha 5/10/2022
+crearPerro 3 Max 3 5 Un Caniche activo
+insertarEnCP
+
+# creo Perro 4 con vitalidad 10
+crearFecha 6/10/2022
+crearPerro 4 Coco 3 10 Un Bulldog dormilon
+insertarEnCP
+
+# ahora el prioritario es el Perro 4 (vitalidad 10, mayor es prioritario)
+prioritarioCP
+
+# creo Perro 5 con vitalidad 15
+crearFecha 9/10/2022
+crearPerro 5 Toby 3 15 Un Pastor Aleman explorador
+insertarEnCP
+
+# creo Perro 6 con vitalidad 2
+crearFecha 5/10/2020
+crearPerro 6 Bruno 3 2 Un Husky viejo
+insertarEnCP
+
+# creo Perro 7 con vitalidad 20
+crearFecha 19/10/2022
+crearPerro 7 Lola 3 20 Un Golden Retriever energico
+insertarEnCP
+
+# el prioritario es el Perro 7 (vitalidad 20)
+prioritarioCP
+
+# la vitalidad del Perro 7 es 20
+prioridadEnCP 7
+
+# la vitalidad del Perro 3 es 5
+prioridadEnCP 3
+
+# elimino el perro prioritario (Perro 7) y verifico
+eliminarPrioritarioCP
+# Perro 7 ya no debe estar
+estaEnCP 7
+
+# ahora el prioritario es el Perro 5 (vitalidad 15)
+prioritarioCP
+
+# elimino 3 veces el prioritario y verifico que la cola no es vacía
+eliminarPrioritarioCP
+eliminarPrioritarioCP
+eliminarPrioritarioCP
+# Queda Perro 6 (vit 2)
+esVaciaCP
+prioritarioCP
+
+# elimino uno mas y ahora si es vacia
+eliminarPrioritarioCP
+esVaciaCP
+
+# Caso 3: Invierto nuevamente la prioridad (menor vitalidad es más prioritario)
+invertirPrioCP
+
+# creo Perro 8 con vitalidad 5
+crearFecha 5/10/2022
+crearPerro 8 Kira 3 5 Un Poodle saltarin
+insertarEnCP
+
+# creo Perro 9 con vitalidad 10
+crearFecha 6/10/2022
+crearPerro 9 Simba 3 10 Un Boxer corredor
+insertarEnCP
+
+# ahora el prioritario es el Perro 8 (vitalidad 5)
+prioritarioCP
+
+# creo Perro 10 con vitalidad 15
+crearFecha 9/10/2022
+crearPerro 10 Nala 3 15 Un Chihuahua curioso
+insertarEnCP
+
+# creo Perro 11 con vitalidad 2
+crearFecha 5/10/2020
+crearPerro 11 Zeus 3 2 Un Doberman muy vital
+insertarEnCP
+
+# creo Perro 12 con vitalidad 20
+crearFecha 19/10/2022
+crearPerro 12 Otto 3 20 Un Dalmata guardian
+insertarEnCP
+
+# ahora el prioritario es el Perro 11 (vitalidad 2)
+prioritarioCP
+
+# Caso 4: Invierto la prioridad en una cola con elementos (mayor vitalidad es más prioritario)
+# Cola actual (orden de menor a mayor vitalidad): Perro 11 (vit 2), Perro 8 (vit 5), Perro 9 (vit 10), Perro 10 (vit 15), Perro 12 (vit 20)
+invertirPrioCP
+# Ahora el prioritario es Perro 12 (vitalidad 20)
+prioritarioCP
+
+# elimino el perro prioritario (Perro 12, vit 20)
+eliminarPrioritarioCP
+# ahora el nuevo prioritario es Perro 10 (vitalidad 15)
+prioritarioCP
+
+# la vitalidad del Perro 10 es 15
+prioridadEnCP 10
+
+# voy eliminando y verificando el orden de prioridad (mayor vitalidad primero)
+# Orden esperado de eliminación: Perro 10 (vit 15), Perro 9 (vit 10), Perro 8 (vit 5), Perro 11 (vit 2)
+
+eliminarPrioritarioCP # elimina Perro 10 (vit 15)
+# prioritario es Perro 9 (vit 10)
+prioritarioCP
+
+eliminarPrioritarioCP # elimina Perro 9 (vit 10)
+# prioritario es Perro 8 (vit 5)
+prioritarioCP
+
+eliminarPrioritarioCP # elimina Perro 8 (vit 5)
+# prioritario es Perro 11 (vit 2)
+prioritarioCP
+
+# queda un elemento en la cola (Perro 11)
+esVaciaCP
+
+eliminarPrioritarioCP # elimina Perro 11 (vit 2)
+
+# ahora la cola esta vacia
+esVaciaCP
+
+liberarCP
+
+Fin

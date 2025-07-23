@@ -1,0 +1,15 @@
+crearRefugio 10
+crearPersona 12345678 Juan Paz 12 5 1995
+registrarPersonaRefugio
+imprimirPersonasRefugio
+crearPersona 14523697 Maria Martinez 15 2 1999
+registrarPersonaRefugio
+imprimirPersonasRefugio
+crearPersona 29746315 Carlos Paez 7 8 2000 
+registrarPersonaRefugio
+imprimirPersonasRefugio
+crearPersona 86541239 Julieta Suarez 4 10 1989 
+registrarPersonaRefugio
+imprimirPersonasRefugio
+liberarRefugio
+Fin
